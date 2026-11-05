@@ -1,0 +1,226 @@
+@using System
+@using System.Linq
+@using System.Collections.Generic
+@using AUA
+@using AUA.Helpers
+@using CMS.ContentEngine
+
+@inject IContentRetriever ContentRetriever
+
+@{
+    // LinkedItemsMaxLevel = 2: level 1 resolves RelatedTopicsBlock -> the
+    // linked AUA.RelatedTopics item; level 2 resolves that item's own
+    // RelatedPages field -> the actual linked page items.
+    var retrieveParams = new RetrieveCurrentPageParameters
+    {
+        LinkedItemsMaxLevel = 2
+    };
+    var currentPage = await ContentRetriever.RetrieveCurrentPage<LongFormDocumentPage>(retrieveParams);
+    Layout = null;
+
+    const int auaWebsiteChannelId = 2;
+    var breadcrumbs = BreadcrumbHelper.GetAncestorTrail(currentPage.SystemFields.WebPageItemID, auaWebsiteChannelId);
+
+    bool isAuaMember = MemberAuthHelper.IsAuaMember(Context);
+
+    // Task 4: 3-tier content gating (AUA.MemberGatingFields reusable
+    // schema) -- see ACCESS_LEVEL_SETUP.md.
+    var accessLevel = ContentAccessLevelHelper.Parse(currentPage.AccessLevel);
+    bool visitorMeetsAccessLevel = ContentAccessLevelHelper.VisitorMeetsAccessLevel(accessLevel, Context);
+
+    // Task 5: hero image swap (AUA.HeroImageFields reusable schema).
+    object heroAssetSource = (isAuaMember && currentPage.MemberHeroImage != null)
+        ? currentPage.MemberHeroImage
+        : currentPage.HeroImage;
+    string heroImageUrl = HeroImageAssetUrlRetriever.GetUrl(heroAssetSource);
+
+    // Task 6: Related Topics card (AUA.RelatedTopicsFields reusable schema).
+    var relatedTopicsItem = currentPage.RelatedTopicsBlock?.FirstOrDefault();
+    var relatedTopicsLinks = relatedTopicsItem != null
+        ? RelatedTopicsHelper.ResolveRelatedPages(relatedTopicsItem.RelatedPages)
+        : new List<(string Title, string Url)>();
+
+    // Atomic content model: resolves from the linked AUA.LongFormContent
+    // item (DocumentContent) once MIGRATE_ALL_LONGFORM_CONTENT has run for
+    // this page, falling back to the page's own fields otherwise -- see
+    // CONTENT_HUB_MIGRATION_SETUP.md.
+    var linkedContent = currentPage.DocumentContent?.FirstOrDefault();
+    string title = linkedContent?.Title ?? currentPage.Title;
+    string headline = linkedContent?.Headline ?? currentPage.Headline;
+    string metaDescription = linkedContent?.MetaDescription ?? currentPage.MetaDescription;
+    string metaKeywords = linkedContent?.MetaKeywords ?? currentPage.MetaKeywords;
+    string body = linkedContent?.Body ?? currentPage.Body;
+    bool needsReview = linkedContent?.NeedsManualContentReview ?? currentPage.NeedsManualContentReview;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@title</title>
+    @if (!string.IsNullOrEmpty(metaDescription))
+    {
+        <meta name="description" content="@metaDescription" />
+    }
+    @if (!string.IsNullOrEmpty(metaKeywords))
+    {
+        <meta name="keywords" content="@metaKeywords" />
+    }
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .aua-page-hero {
+            background-color: #003057; /* placeholder brand navy - adjust to actual AUA brand color later */
+            color: #ffffff;
+            padding: 3rem 0;
+            margin-bottom: 2.5rem;
+        }
+
+        .aua-page-hero h1 {
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+
+        .aua-article-body {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: #212529;
+        }
+
+        .aua-article-body h2, .aua-article-body h3 {
+            margin-top: 2rem;
+        }
+
+        .aua-article-body table {
+            width: 100%;
+            margin: 1.5rem 0;
+        }
+
+        .aua-review-flag {
+            font-size: 0.85rem;
+        }
+
+        .aua-member-gate {
+            font-size: 0.95rem;
+        }
+
+        .aua-breadcrumb {
+            --bs-breadcrumb-divider-color: rgba(255,255,255,0.5);
+            margin-bottom: 0.75rem;
+        }
+
+        .aua-breadcrumb a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+        }
+
+        .aua-breadcrumb a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        .aua-breadcrumb .active {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <partial name="~/Views/Shared/_HeaderNav.cshtml" />
+
+    <header class="aua-page-hero"
+        style="@(heroImageUrl != null ? $"background-image: url('{heroImageUrl}'); background-size: cover; background-position: center;" : "")">
+        <div class="container">
+            @if (breadcrumbs.Count > 0)
+            {
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb aua-breadcrumb">
+                        <li class="breadcrumb-item"><a href="/home">Home</a></li>
+                        @foreach (var crumb in breadcrumbs)
+                        {
+                            <li class="breadcrumb-item"><a href="@crumb.Url">@crumb.Title</a></li>
+                        }
+                        <li class="breadcrumb-item active" aria-current="page">@title</li>
+                    </ol>
+                </nav>
+            }
+            <h1>@headline</h1>
+        </div>
+    </header>
+
+    <main class="container pb-5">
+        <div class="row">
+            <div class="col-lg-9">
+                @if (needsReview)
+                {
+                    <div class="alert alert-warning aua-review-flag" role="alert">
+                        This page is flagged for manual content review.
+                    </div>
+                }
+
+                @* Task 4: 3-tier content gating. *@
+                @if (!visitorMeetsAccessLevel)
+                {
+                    <div class="alert alert-info aua-member-gate" role="alert">
+                        @if (accessLevel == ContentAccessLevel.MembersOnly)
+                        {
+                            <strong>This content is for AUA members only.</strong>
+                        }
+                        else
+                        {
+                            <strong>Please sign in to view this content.</strong>
+                        }
+                        @if (!string.IsNullOrEmpty(currentPage.NonMemberPreviewText))
+                        {
+                            <div class="mt-2">@Html.Raw(currentPage.NonMemberPreviewText)</div>
+                        }
+                        <div class="mt-3">
+                            @if (MemberAuthHelper.IsAuthenticated(Context))
+                            {
+                                <span>Signed in as @MemberAuthHelper.GetEmail(Context), but we don't have an active AUA membership on file for this address.</span>
+                            }
+                            else
+                            {
+                                <partial name="~/Views/Shared/_ExternalLoginButtons.cshtml" model="@Context.Request.Path.Value" />
+                            }
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="aua-article-body">
+                        @Html.Raw(body)
+                    </div>
+                }
+            </div>
+            <div class="col-lg-3">
+                @if (relatedTopicsLinks.Count > 0)
+                {
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Related Topics</h5>
+                            <ul class="list-unstyled mb-0">
+                                @foreach (var link in relatedTopicsLinks)
+                                {
+                                    <li class="mb-1"><a href="@link.Url">@link.Title</a></li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <!-- Reserved for future use: Site Section taxonomy links, etc. -->
+                }
+            </div>
+        </div>
+    </main>
+
+    <partial name="~/Views/Shared/_SiteFooter.cshtml" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

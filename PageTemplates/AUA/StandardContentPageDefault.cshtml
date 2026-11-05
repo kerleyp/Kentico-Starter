@@ -1,0 +1,234 @@
+@using System
+@using AUA
+@using AUA.Helpers
+@using CMS.ContentEngine
+@using Kentico.Web.Mvc
+@using Kentico.PageBuilder.Web.Mvc
+
+@* PageTemplates/ is a sibling of Views/, not a child of it, so
+   Views/_ViewImports.cshtml's @addTagHelper directives never cascade down
+   to this file -- Razor only walks up a file's own ancestor folders when
+   resolving _ViewImports.cshtml. Registering it directly here instead,
+   scoped to just this template.
+
+   NOTE: the real editable-area tag helper lives in Kentico.Content.Web.Mvc,
+   not Kentico.PageBuilder.Web.Mvc (confirmed against Kentico's own Tag
+   Helper reference doc -- a prior attempt registered the wrong assembly,
+   which is also why the tag name below was wrong for a while: <edit-area>
+   isn't a real Kentico tag at all, it's just an unrecognized custom HTML
+   element that browsers silently render as an empty container. The actual
+   tag is <editable-area />, self-closing, no separate closing tag.) *@
+@addTagHelper *, Kentico.Content.Web.Mvc
+
+@inject IContentRetriever ContentRetriever
+
+@{
+    var currentPage = await ContentRetriever.RetrieveCurrentPage<StandardContentPage>();
+    Layout = null;
+
+    const int auaWebsiteChannelId = 2;
+    var breadcrumbs = BreadcrumbHelper.GetAncestorTrail(currentPage.SystemFields.WebPageItemID, auaWebsiteChannelId);
+
+    // Home page's URL slug is "home" 
+    // Lookup demo to just the home page, since this template is shared across
+    // every AUA.StandardContentPage.
+    bool isHomePage = string.Equals(
+        Context.Request.Path.Value?.Trim('/'),
+        "home",
+        StringComparison.OrdinalIgnoreCase);
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@currentPage.Title</title>
+    @if (!string.IsNullOrEmpty(currentPage.MetaDescription))
+    {
+        <meta name="description" content="@currentPage.MetaDescription" />
+    }
+    @if (!string.IsNullOrEmpty(currentPage.MetaKeywords))
+    {
+        <meta name="keywords" content="@currentPage.MetaKeywords" />
+    }
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    @* Page Builder's own CSS (the purple "+" add-widget controls, drop-zone
+       outlines, drag handles, etc. all come from here). Normally this lives
+       in a shared _Layout.cshtml, but this template sets Layout = null and
+       builds its own <html> from scratch, so it has to be added directly. *@
+    @Html.Kentico().PageBuilderStyles()
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .aua-page-hero {
+            background-color: #003057; /* placeholder brand navy - adjust to actual AUA brand color later */
+            color: #ffffff;
+            padding: 3rem 0;
+            margin-bottom: 2.5rem;
+        }
+
+        .aua-page-hero h1 {
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+
+        .aua-article-body {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: #212529;
+        }
+
+        .aua-article-body h2, .aua-article-body h3 {
+            margin-top: 2rem;
+        }
+
+        .aua-article-body table {
+            width: 100%;
+            margin: 1.5rem 0;
+        }
+
+        .aua-review-flag {
+            font-size: 0.85rem;
+        }
+
+        .aua-breadcrumb {
+            --bs-breadcrumb-divider-color: rgba(255,255,255,0.5);
+            margin-bottom: 0.75rem;
+        }
+
+        .aua-breadcrumb a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+        }
+
+        .aua-breadcrumb a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        .aua-breadcrumb .active {
+            color: #ffffff;
+        }
+
+    </style>
+</head>
+<body>
+    <partial name="~/Views/Shared/_HeaderNav.cshtml" />
+
+    <header class="aua-page-hero">
+        <div class="container">
+            @if (breadcrumbs.Count > 0)
+            {
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb aua-breadcrumb">
+                        <li class="breadcrumb-item"><a href="/home">Home</a></li>
+                        @foreach (var crumb in breadcrumbs)
+                        {
+                            <li class="breadcrumb-item"><a href="@crumb.Url">@crumb.Title</a></li>
+                        }
+                        <li class="breadcrumb-item active" aria-current="page">@currentPage.Title</li>
+                    </ol>
+                </nav>
+            }
+            <h1>@currentPage.Headline</h1>
+        </div>
+    </header>
+
+    <main class="container pb-5">
+        <div class="row">
+            <div class="col-lg-9">
+                @if (currentPage.NeedsManualContentReview)
+                {
+                    <div class="alert alert-warning aua-review-flag" role="alert">
+                        This page is flagged for manual content review.
+                    </div>
+                }
+                <div class="aua-article-body">
+                    @Html.Raw(currentPage.Body)
+                </div>
+
+                @* Page Builder editable area -- lets editors drop widgets (e.g. the
+                   Form widget) onto individual AUA.StandardContentPage pages via
+                   the admin UI, below the page's regular Body copy. This is a
+                   template-level addition: it makes the drop-zone available on
+                   EVERY page using this template, but content placed here is
+                   still stored per-page, so other StandardContentPage pages are
+                   unaffected unless someone also adds widgets to them. Needs
+                   Page Builder already enabled (it is -- see
+                   features.UsePageBuilder(...) in Program.cs) and the
+                   EditableAreaTagHelper registered above (Kentico.Content.Web.Mvc). *@
+                <editable-area area-identifier="main" />
+            </div>
+            <div class="col-lg-3">
+                @if (isHomePage)
+                {
+                    @* Quick test feature: button calls our own /api/account-lookup
+                       endpoint (AccountLookupController), which proxies to AUA's
+                       GetAccountInfo API server-side so the Basic Auth credential
+                       never reaches the browser. Result is dumped as raw JSON. *@
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Account Lookup (test)</h5>
+                            <div class="mb-2">
+                                <label for="aua-lookup-customer-id" class="form-label">Customer ID</label>
+                                <input type="text" id="aua-lookup-customer-id" class="form-control" value="00809875" />
+                            </div>
+                            <button type="button" id="aua-lookup-button" class="btn btn-primary btn-sm">Look Up Account</button>
+                            <pre id="aua-lookup-result" class="mt-3 p-2 bg-light border rounded" style="white-space: pre-wrap; font-size: 0.8rem; max-height: 500px; overflow: auto;"></pre>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <!-- Reserved for future use: Site Section taxonomy links, related pages, etc. -->
+                }
+            </div>
+        </div>
+    </main>
+
+    <partial name="~/Views/Shared/_SiteFooter.cshtml" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    @* Page Builder's own scripts -- these actually draw the "+" add-widget
+       controls and wire up drag/drop over the <edit-area> above. Must come
+       before </body>. Same story as PageBuilderStyles() in <head>: normally
+       inherited from a shared _Layout.cshtml, missing here because this
+       template has Layout = null. *@
+    @await Html.Kentico().PageBuilderScriptsAsync()
+
+    @if (isHomePage)
+    {
+        <script>
+            document.getElementById('aua-lookup-button').addEventListener('click', function () {
+                var customerId = document.getElementById('aua-lookup-customer-id').value.trim();
+                var resultEl = document.getElementById('aua-lookup-result');
+
+                if (!customerId) {
+                    resultEl.textContent = 'Enter a customer ID first.';
+                    return;
+                }
+
+                resultEl.textContent = 'Loading...';
+
+                fetch('/api/account-lookup?customerId=' + encodeURIComponent(customerId))
+                    .then(function (response) {
+                        return response.json().then(function (data) {
+                            return { status: response.status, data: data };
+                        });
+                    })
+                    .then(function (result) {
+                        resultEl.textContent = JSON.stringify(result.data, null, 2);
+                    })
+                    .catch(function (err) {
+                        resultEl.textContent = 'Request failed: ' + err;
+                    });
+            });
+        </script>
+    }
+</body>
+</html>

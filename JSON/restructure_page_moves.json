@@ -1,0 +1,2458 @@
+[
+  {
+    "urlSlug": "membership",
+    "parentPath": null
+  },
+  {
+    "urlSlug": "join-the-aua",
+    "parentPath": "membership"
+  },
+  {
+    "urlSlug": "member-benefits-and-programs",
+    "parentPath": "membership"
+  },
+  {
+    "urlSlug": "membership-value",
+    "parentPath": "membership/member-benefits-and-programs"
+  },
+  {
+    "urlSlug": "associate",
+    "parentPath": "membership/member-benefits-and-programs/active"
+  },
+  {
+    "urlSlug": "in-section-countries-world-bank-classification",
+    "parentPath": "membership/member-benefits-and-programs/active/associate"
+  },
+  {
+    "urlSlug": "intl",
+    "parentPath": "membership/member-benefits-and-programs"
+  },
+  {
+    "urlSlug": "intl-member-world-bank-classification",
+    "parentPath": "membership/advancing-urology-globally/intl-membership"
+  },
+  {
+    "urlSlug": "intl-resident-in-training",
+    "parentPath": "membership/member-benefits-and-programs"
+  },
+  {
+    "urlSlug": "fellow",
+    "parentPath": "membership/member-benefits-and-programs/resident"
+  },
+  {
+    "urlSlug": "research-scientist",
+    "parentPath": "membership/member-benefits-and-programs"
+  },
+  {
+    "urlSlug": "affiliate",
+    "parentPath": "membership/member-benefits-and-programs"
+  },
+  {
+    "urlSlug": "advanced-practice-provider",
+    "parentPath": "membership/member-benefits-and-programs"
+  },
+  {
+    "urlSlug": "allied",
+    "parentPath": "membership/member-benefits-and-programs"
+  },
+  {
+    "urlSlug": "graduate-student",
+    "parentPath": "membership/member-benefits-and-programs/medical"
+  },
+  {
+    "urlSlug": "member-get-a-member",
+    "parentPath": "membership/member-benefits-and-programs"
+  },
+  {
+    "urlSlug": "memberperks",
+    "parentPath": "membership"
+  },
+  {
+    "urlSlug": "brandeis-university",
+    "parentPath": "membership/memberperks"
+  },
+  {
+    "urlSlug": "diagnostics-direct-inc",
+    "parentPath": "membership/memberperks"
+  },
+  {
+    "urlSlug": "memberdeals",
+    "parentPath": "membership/memberperks"
+  },
+  {
+    "urlSlug": "sofi",
+    "parentPath": "membership/memberperks"
+  },
+  {
+    "urlSlug": "taylor-healthcare",
+    "parentPath": "membership/memberperks"
+  },
+  {
+    "urlSlug": "member-central",
+    "parentPath": "membership"
+  },
+  {
+    "urlSlug": "get-started",
+    "parentPath": "membership/member-central"
+  },
+  {
+    "urlSlug": "get-connected",
+    "parentPath": "membership/member-central"
+  },
+  {
+    "urlSlug": "get-acquainted",
+    "parentPath": "membership/member-central"
+  },
+  {
+    "urlSlug": "get-educated",
+    "parentPath": "membership/member-central"
+  },
+  {
+    "urlSlug": "get-recognized",
+    "parentPath": "membership/member-central"
+  },
+  {
+    "urlSlug": "member-directory",
+    "parentPath": "membership/member-central"
+  },
+  {
+    "urlSlug": "membership-dues-faqs",
+    "parentPath": "membership"
+  },
+  {
+    "urlSlug": "dues-reduction-or-exemption",
+    "parentPath": "membership/membership-dues-faqs"
+  },
+  {
+    "urlSlug": "volunteer-opportunities",
+    "parentPath": "membership"
+  },
+  {
+    "urlSlug": "journal-peer-reviewers",
+    "parentPath": "membership/volunteer-opportunities"
+  },
+  {
+    "urlSlug": "education-content-review-workgroup",
+    "parentPath": "membership/volunteer-opportunities"
+  },
+  {
+    "urlSlug": "mentorship-opportunities",
+    "parentPath": "membership"
+  },
+  {
+    "urlSlug": "future-program",
+    "parentPath": "membership/mentorship-opportunities"
+  },
+  {
+    "urlSlug": "future-urologist-mentorship-network",
+    "parentPath": "membership/mentorship-opportunities"
+  },
+  {
+    "urlSlug": "who-we-are",
+    "parentPath": "membership"
+  },
+  {
+    "urlSlug": "aua-sections-and-demographics",
+    "parentPath": "membership/who-we-are"
+  },
+  {
+    "urlSlug": "mid-atlantic-section",
+    "parentPath": "membership/who-we-are/aua-sections-and-demographics"
+  },
+  {
+    "urlSlug": "new-england-section",
+    "parentPath": "membership/who-we-are/aua-sections-and-demographics"
+  },
+  {
+    "urlSlug": "new-york-section",
+    "parentPath": "membership/who-we-are/aua-sections-and-demographics"
+  },
+  {
+    "urlSlug": "north-central-section",
+    "parentPath": "membership/who-we-are/aua-sections-and-demographics"
+  },
+  {
+    "urlSlug": "northeastern-section",
+    "parentPath": "membership/who-we-are/aua-sections-and-demographics"
+  },
+  {
+    "urlSlug": "south-central-section",
+    "parentPath": "membership/who-we-are/aua-sections-and-demographics"
+  },
+  {
+    "urlSlug": "southeastern-section",
+    "parentPath": "membership/who-we-are/aua-sections-and-demographics"
+  },
+  {
+    "urlSlug": "western-section",
+    "parentPath": "membership/who-we-are/aua-sections-and-demographics"
+  },
+  {
+    "urlSlug": "advancing-urology-globally",
+    "parentPath": "membership"
+  },
+  {
+    "urlSlug": "membership-committees",
+    "parentPath": "membership"
+  },
+  {
+    "urlSlug": "medical-student-membership-workgroup",
+    "parentPath": "membership/membership-committees"
+  },
+  {
+    "urlSlug": "app-membership-committee",
+    "parentPath": "membership/membership-committees"
+  },
+  {
+    "urlSlug": "aua-advanced-practice-provider-of-the-year-award",
+    "parentPath": "membership/membership-committees/app-membership-committee"
+  },
+  {
+    "urlSlug": "intl-member-committee",
+    "parentPath": "membership/membership-committees"
+  },
+  {
+    "urlSlug": "residents-and-fellows-committee",
+    "parentPath": "membership/membership-committees"
+  },
+  {
+    "urlSlug": "residents-and-fellows-committee-essay-contest",
+    "parentPath": "membership/membership-committees/residents-and-fellows-committee"
+  },
+  {
+    "urlSlug": "residents-and-fellows-committee-teaching-award",
+    "parentPath": "membership/membership-committees/residents-and-fellows-committee"
+  },
+  {
+    "urlSlug": "aua-residents-and-fellows-committee-teaching-award-previous-honorees",
+    "parentPath": "membership/membership-committees/residents-and-fellows-committee/residents-and-fellows-committee-teaching-award"
+  },
+  {
+    "urlSlug": "fellowships",
+    "parentPath": "membership/membership-committees/residents-and-fellows-committee"
+  },
+  {
+    "urlSlug": "young-urologists-committee",
+    "parentPath": "membership/membership-committees"
+  },
+  {
+    "urlSlug": "young-urologist-of-the-year-award",
+    "parentPath": "membership/membership-committees/young-urologists-committee/young-urologists-of-the-year-award-winners"
+  },
+  {
+    "urlSlug": "publications-and-podcasts",
+    "parentPath": "membership"
+  },
+  {
+    "urlSlug": "journal-subscriptions",
+    "parentPath": "membership/publications-and-podcasts"
+  },
+  {
+    "urlSlug": "faq-journal-changes",
+    "parentPath": "membership/publications-and-podcasts/journal-subscriptions"
+  },
+  {
+    "urlSlug": "the-journal-of-urology",
+    "parentPath": "membership/publications-and-podcasts"
+  },
+  {
+    "urlSlug": "visual-abstracts",
+    "parentPath": "membership/publications-and-podcasts/the-journal-of-urology"
+  },
+  {
+    "urlSlug": "urology-practice",
+    "parentPath": "membership/publications-and-podcasts"
+  },
+  {
+    "urlSlug": "ju-open-plus",
+    "parentPath": "membership/publications-and-podcasts"
+  },
+  {
+    "urlSlug": "under-the-cover",
+    "parentPath": "membership/publications-and-podcasts"
+  },
+  {
+    "urlSlug": "membership-list-rental",
+    "parentPath": "membership"
+  },
+  {
+    "urlSlug": "meetings-and-education",
+    "parentPath": null
+  },
+  {
+    "urlSlug": "educational-calendar",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "urlSlug": "global-academic-exchanges-overview",
+    "parentPath": "meetings-and-education/global-academic-exchanges"
+  },
+  {
+    "urlSlug": "exchange-programs",
+    "parentPath": "meetings-and-education/global-academic-exchanges"
+  },
+  {
+    "urlSlug": "brazil",
+    "parentPath": "meetings-and-education/global-academic-exchanges/exchange-programs"
+  },
+  {
+    "urlSlug": "europe",
+    "parentPath": "meetings-and-education/global-academic-exchanges/exchange-programs"
+  },
+  {
+    "urlSlug": "chakrobortty-fellowship-program",
+    "parentPath": "meetings-and-education/global-academic-exchanges/exchange-programs"
+  },
+  {
+    "urlSlug": "japan",
+    "parentPath": "meetings-and-education/global-academic-exchanges/exchange-programs"
+  },
+  {
+    "urlSlug": "usi",
+    "parentPath": "meetings-and-education/global-academic-exchanges/exchange-programs"
+  },
+  {
+    "urlSlug": "visiting-scholar-programs",
+    "parentPath": "meetings-and-education/global-academic-exchanges"
+  },
+  {
+    "urlSlug": "cau",
+    "parentPath": "meetings-and-education/global-academic-exchanges/visiting-scholar-programs"
+  },
+  {
+    "urlSlug": "france",
+    "parentPath": "meetings-and-education/global-academic-exchanges/visiting-scholar-programs"
+  },
+  {
+    "urlSlug": "mexico",
+    "parentPath": "meetings-and-education/global-academic-exchanges/visiting-scholar-programs"
+  },
+  {
+    "urlSlug": "resident-programs",
+    "parentPath": "meetings-and-education/global-academic-exchanges"
+  },
+  {
+    "urlSlug": "past-participants-in-the-global-academic-exchange-programs",
+    "parentPath": "meetings-and-education/global-academic-exchanges"
+  },
+  {
+    "urlSlug": "2022-past-participants",
+    "parentPath": "meetings-and-education/global-academic-exchanges"
+  },
+  {
+    "urlSlug": "2023-past-participants",
+    "parentPath": "meetings-and-education/global-academic-exchanges"
+  },
+  {
+    "urlSlug": "examinations",
+    "parentPath": "meetings-and-education/exams"
+  },
+  {
+    "urlSlug": "exam-prep",
+    "parentPath": "meetings-and-education/exams"
+  },
+  {
+    "urlSlug": "practice-resource-library",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "urlSlug": "optimizing-first-line-management-of-metastatic-hormone-sensitive-prostate-cancer",
+    "parentPath": "meetings-and-education/practice-resource-library"
+  },
+  {
+    "urlSlug": "integrating-biomarker-and-genetic-testing-for-hrr-mutations-into-prostate-cancer-management",
+    "parentPath": "meetings-and-education/practice-resource-library"
+  },
+  {
+    "urlSlug": "practical-strategies-for-the-use-of-miscellaneous-j-codes-in-urology-practice",
+    "parentPath": "meetings-and-education/practice-resource-library"
+  },
+  {
+    "urlSlug": "mobile-apps",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "urlSlug": "for-residents",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "urlSlug": "for-residency-program-directors",
+    "parentPath": "meetings-and-education/for-residents"
+  },
+  {
+    "urlSlug": "urology-residency-and-fellowship-programs",
+    "parentPath": "meetings-and-education/for-residents"
+  },
+  {
+    "urlSlug": "accredited-us-urology-programs",
+    "parentPath": "meetings-and-education/for-residents/urology-residency-and-fellowship-programs"
+  },
+  {
+    "urlSlug": "accredited-listing-of-us-urology-residency-programs",
+    "parentPath": "meetings-and-education/for-residents/urology-residency-and-fellowship-programs/accredited-us-urology-programs"
+  },
+  {
+    "urlSlug": "program-vacancies",
+    "parentPath": "meetings-and-education/for-residents/urology-residency-and-fellowship-programs"
+  },
+  {
+    "urlSlug": "urology-vacancies",
+    "parentPath": "meetings-and-education/for-residents/urology-residency-and-fellowship-programs/program-vacancies"
+  },
+  {
+    "urlSlug": "additional-fellowships-for-internationals",
+    "parentPath": "meetings-and-education/for-residents/urology-residency-and-fellowship-programs"
+  },
+  {
+    "urlSlug": "urology-and-specialty-matches",
+    "parentPath": "meetings-and-education/for-residents"
+  },
+  {
+    "urlSlug": "specialty-match-timelines",
+    "parentPath": "meetings-and-education/for-residents/urology-and-specialty-matches"
+  },
+  {
+    "urlSlug": "matchprogramtraining",
+    "parentPath": "meetings-and-education/for-residents/urology-and-specialty-matches/specialty-match-timelines"
+  },
+  {
+    "urlSlug": "examination-resources",
+    "parentPath": "meetings-and-education/for-residents"
+  },
+  {
+    "urlSlug": "allied-health-professionals",
+    "parentPath": "meetings-and-education/for-app"
+  },
+  {
+    "urlSlug": "advanced-practice-providers-speakers-bureau",
+    "parentPath": "meetings-and-education/for-app/allied-health-professionals"
+  },
+  {
+    "urlSlug": "course-planning-disclosures-and-cme",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "urlSlug": "confidentiality-statement-for-online-education",
+    "parentPath": "meetings-and-education/course-planning-disclosures-and-cme"
+  },
+  {
+    "urlSlug": "continuing-medical-education-and-accreditation-x23111",
+    "parentPath": "meetings-and-education/course-planning-disclosures-and-cme"
+  },
+  {
+    "urlSlug": "aua-continuing-education-(ce)-mission-statement",
+    "parentPath": "meetings-and-education/course-planning-disclosures-and-cme/continuing-medical-education-and-accreditation"
+  },
+  {
+    "urlSlug": "cme-frequently-asked-questions",
+    "parentPath": "meetings-and-education/course-planning-disclosures-and-cme/continuing-medical-education-and-accreditation"
+  },
+  {
+    "urlSlug": "section-meeting-request-for-course-of-choice",
+    "parentPath": "meetings-and-education/course-planning-disclosures-and-cme"
+  },
+  {
+    "urlSlug": "disclosures",
+    "parentPath": "meetings-and-education/course-planning-disclosures-and-cme"
+  },
+  {
+    "urlSlug": "aua-disclosure-policy",
+    "parentPath": "meetings-and-education/course-planning-disclosures-and-cme/disclosures"
+  },
+  {
+    "urlSlug": "definition-of-cme",
+    "parentPath": "meetings-and-education/course-planning-disclosures-and-cme"
+  },
+  {
+    "urlSlug": "cme-information",
+    "parentPath": "meetings-and-education/course-planning-disclosures-and-cme"
+  },
+  {
+    "urlSlug": "medical-students-curriculum",
+    "parentPath": "meetings-and-education/for-medical-students"
+  },
+  {
+    "urlSlug": "archived-webinars",
+    "parentPath": "meetings-and-education/for-medical-students/medical-students-curriculum"
+  },
+  {
+    "urlSlug": "basic-communication-skills",
+    "parentPath": "meetings-and-education/for-medical-students/medical-students-curriculum"
+  },
+  {
+    "urlSlug": "gu-exams",
+    "parentPath": "meetings-and-education/for-medical-students"
+  },
+  {
+    "urlSlug": "male-gu-exam",
+    "parentPath": "meetings-and-education/for-medical-students/gu-exams"
+  },
+  {
+    "urlSlug": "female-gu-exam",
+    "parentPath": "meetings-and-education/for-medical-students/gu-exams"
+  },
+  {
+    "urlSlug": "pediatric-gu-exam",
+    "parentPath": "meetings-and-education/for-medical-students/gu-exams"
+  },
+  {
+    "urlSlug": "medical-student-resources",
+    "parentPath": "meetings-and-education/for-medical-students"
+  },
+  {
+    "urlSlug": "auas-digital-transformation",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "urlSlug": "auauniversity-transition-faq",
+    "parentPath": "meetings-and-education/auas-digital-transformation"
+  },
+  {
+    "urlSlug": "sbu-academic-exchange-program",
+    "parentPath": "meetings-and-education/aua"
+  },
+  {
+    "urlSlug": "brazil_academic_exchange_form",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "urlSlug": "europe_academic_exchange_form",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "urlSlug": "mycme",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "urlSlug": "patient-education",
+    "parentPath": "meetings-and-education/educational-programs"
+  },
+  {
+    "urlSlug": "guidelines-and-quality",
+    "parentPath": null
+  },
+  {
+    "urlSlug": "guidelines",
+    "parentPath": "guidelines-and-quality"
+  },
+  {
+    "urlSlug": "bph-guideline",
+    "parentPath": "guidelines-and-quality/guidelines"
+  },
+  {
+    "urlSlug": "non-oncology-guidelines",
+    "parentPath": "guidelines-and-quality/guidelines"
+  },
+  {
+    "urlSlug": "additional-topics",
+    "parentPath": "guidelines-and-quality/guidelines/non-oncology-guidelines"
+  },
+  {
+    "urlSlug": "incontinence",
+    "parentPath": "guidelines-and-quality/guidelines/non-oncology-guidelines"
+  },
+  {
+    "urlSlug": "pediatric-urology",
+    "parentPath": "guidelines-and-quality/guidelines/non-oncology-guidelines"
+  },
+  {
+    "urlSlug": "sexual-and-reproductive-health",
+    "parentPath": "guidelines-and-quality/guidelines/non-oncology-guidelines"
+  },
+  {
+    "urlSlug": "stones",
+    "parentPath": "guidelines-and-quality/guidelines/non-oncology-guidelines"
+  },
+  {
+    "urlSlug": "oncology-guidelines",
+    "parentPath": "guidelines-and-quality/guidelines"
+  },
+  {
+    "urlSlug": "bladder-cancer",
+    "parentPath": "guidelines-and-quality/guidelines/oncology-guidelines"
+  },
+  {
+    "urlSlug": "prostate-cancer",
+    "parentPath": "guidelines-and-quality/guidelines/oncology-guidelines"
+  },
+  {
+    "urlSlug": "renal-cancer",
+    "parentPath": "guidelines-and-quality/guidelines/oncology-guidelines"
+  },
+  {
+    "urlSlug": "testicular-cancer",
+    "parentPath": "guidelines-and-quality/guidelines/oncology-guidelines"
+  },
+  {
+    "urlSlug": "translated-guidelines",
+    "parentPath": "guidelines-and-quality/guidelines"
+  },
+  {
+    "urlSlug": "archived-documents",
+    "parentPath": "guidelines-and-quality/guidelines"
+  },
+  {
+    "urlSlug": "standard-operating-procedures-overview",
+    "parentPath": "guidelines-and-quality/guidelines"
+  },
+  {
+    "urlSlug": "topic-submission",
+    "parentPath": "guidelines-and-quality/guidelines"
+  },
+  {
+    "urlSlug": "clinical-guidelines-submit-a-topic",
+    "parentPath": "guidelines-and-quality/guidelines/topic-submission"
+  },
+  {
+    "urlSlug": "guidelines-terms-and-conditions-of-use",
+    "parentPath": "guidelines-and-quality/guidelines"
+  },
+  {
+    "urlSlug": "bph-guidelines-faqs",
+    "parentPath": "guidelines-and-quality/guidelines"
+  },
+  {
+    "urlSlug": "quality-and-measurement",
+    "parentPath": "guidelines-and-quality"
+  },
+  {
+    "urlSlug": "quality-improvement",
+    "parentPath": "guidelines-and-quality/quality-and-measurement"
+  },
+  {
+    "urlSlug": "diagnostic-excellence",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement"
+  },
+  {
+    "urlSlug": "engage-with-quality-improvement-and-patient-safety-(e-qips)",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement"
+  },
+  {
+    "urlSlug": "effect-of-educating-nurses-on-difficult-foley-catheter-placement",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)"
+  },
+  {
+    "urlSlug": "standardization-of-surgical-technician-handoffs-using-a-visual-cognitive-aid",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)"
+  },
+  {
+    "urlSlug": "the-rosetta-(kidney)-stone-project",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)"
+  },
+  {
+    "urlSlug": "trial-of-void-algorithm-urethral-catheter-use",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)"
+  },
+  {
+    "urlSlug": "improving-knowledge-of-surveillance-practices-in-non-muscle-invasive-bladder-cancer-(nmibc)",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)"
+  },
+  {
+    "urlSlug": "the-time-out-engagement-and-standardization-initiative",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)"
+  },
+  {
+    "urlSlug": "procedure-based-telehealth-utilization-initiative",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)"
+  },
+  {
+    "urlSlug": "using-lean-methodology-to-increase-clinic-efficiency",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)"
+  },
+  {
+    "urlSlug": "ureteroscopy-standardization-and-its-impact-on-efficiency-in-the-operating-room",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)"
+  },
+  {
+    "urlSlug": "non-opioid-pathway-post-ureteroscopy-and-ureteral-stent-placement",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)"
+  },
+  {
+    "urlSlug": "strategies-to-optimize-nephrolithiasis-emergency-(stone)-care-creation-of-an-emergency-department-clinical-pathway",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)"
+  },
+  {
+    "urlSlug": "urologists-newborn-circumcision-obstetric-hospital-resource",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)"
+  },
+  {
+    "urlSlug": "one-safe-act-works-in-progress",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)"
+  },
+  {
+    "urlSlug": "reducing-preventable-ed-visits-for-self-irrigation-of-catheters",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)"
+  },
+  {
+    "urlSlug": "improving-time-to-hospital-discharge-following-percutaneous-nephrolithotomy",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)"
+  },
+  {
+    "urlSlug": "e-qips-initiative-request-forms",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)"
+  },
+  {
+    "urlSlug": "quality-improvement-summit",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement"
+  },
+  {
+    "urlSlug": "clinical-consensus-statement-and-quality-improvement-issue-brief-(ccs-and-qiib)",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement"
+  },
+  {
+    "urlSlug": "quality-improvement-resource-library",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement"
+  },
+  {
+    "urlSlug": "aua-quality-improvement-webinar-video",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/quality-improvement-resource-library"
+  },
+  {
+    "urlSlug": "fda-alerts-and-recalls",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement/quality-improvement-resource-library"
+  },
+  {
+    "urlSlug": "quality-improvement-project-guide",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement"
+  },
+  {
+    "urlSlug": "macra-and-quality-payment-program",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement"
+  },
+  {
+    "urlSlug": "measurement",
+    "parentPath": "guidelines-and-quality/quality-and-measurement"
+  },
+  {
+    "urlSlug": "overview-of-mips-value-pathways-(mvps)-and-the-new-urology-mvp",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/measurement"
+  },
+  {
+    "urlSlug": "measurement-primer",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/measurement"
+  },
+  {
+    "urlSlug": "patient-safety-and-quality-of-care",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/measurement"
+  },
+  {
+    "urlSlug": "resource-toolkit-for-stewardship-of-imaging",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/measurement"
+  },
+  {
+    "urlSlug": "2026-science-and-quality-summit",
+    "parentPath": "guidelines-and-quality"
+  },
+  {
+    "urlSlug": "registration-page",
+    "parentPath": "guidelines-and-quality/2026-science-and-quality-summit"
+  },
+  {
+    "urlSlug": "keynote-speakers",
+    "parentPath": "guidelines-and-quality/2026-science-and-quality-summit"
+  },
+  {
+    "urlSlug": "sandq-breakthru",
+    "parentPath": "guidelines-and-quality/2026-science-and-quality-summit"
+  },
+  {
+    "urlSlug": "poster-session",
+    "parentPath": "guidelines-and-quality/2026-science-and-quality-summit"
+  },
+  {
+    "urlSlug": "science-and-quality-fellow-program",
+    "parentPath": "guidelines-and-quality"
+  },
+  {
+    "urlSlug": "leadership-and-business",
+    "parentPath": null
+  },
+  {
+    "urlSlug": "institute-for-leadership-and-business",
+    "parentPath": "leadership-and-business"
+  },
+  {
+    "urlSlug": "aua-leadership-program",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business"
+  },
+  {
+    "urlSlug": "leadership-classes",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business/aua-leadership-program"
+  },
+  {
+    "urlSlug": "leadership-class-past-participants",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business/aua-leadership-program/leadership-classes"
+  },
+  {
+    "urlSlug": "leadership-mentors",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business/aua-leadership-program"
+  },
+  {
+    "urlSlug": "2025-2026-mentors",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business/aua-leadership-program/leadership-mentors"
+  },
+  {
+    "urlSlug": "leadership-program-past-mentors",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business/aua-leadership-program/leadership-mentors"
+  },
+  {
+    "urlSlug": "activities-for-the-aua-leadership-program",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business/aua-leadership-program"
+  },
+  {
+    "urlSlug": "aua-masterclass-in-executive-leadership-program",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business"
+  },
+  {
+    "urlSlug": "aua-masterclass-in-executive-leadership-faculty",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business/aua-masterclass-in-executive-leadership-program"
+  },
+  {
+    "urlSlug": "leadership-development-opportunities",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business"
+  },
+  {
+    "urlSlug": "speed-mentoring",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business/leadership-development-opportunities"
+  },
+  {
+    "urlSlug": "business-education",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business"
+  },
+  {
+    "urlSlug": "brandeis-universitys-executive-mba-for-physicians",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business/business-education"
+  },
+  {
+    "urlSlug": "practice-management-and-coding-education",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business"
+  },
+  {
+    "urlSlug": "payment-and-reimbursement",
+    "parentPath": "leadership-and-business"
+  },
+  {
+    "urlSlug": "practice-management-and-coding",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business"
+  },
+  {
+    "urlSlug": "codingtoday",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business/practice-management-and-coding"
+  },
+  {
+    "urlSlug": "practice-managers-network",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business/practice-management-and-coding"
+  },
+  {
+    "urlSlug": "advocacy",
+    "parentPath": null
+  },
+  {
+    "urlSlug": "action-center",
+    "parentPath": "advocacy"
+  },
+  {
+    "urlSlug": "federal-advocacy",
+    "parentPath": "advocacy"
+  },
+  {
+    "urlSlug": "psa-testing",
+    "parentPath": "advocacy/federal-advocacy"
+  },
+  {
+    "urlSlug": "regulatory-burden",
+    "parentPath": "advocacy/federal-advocacy"
+  },
+  {
+    "urlSlug": "workforce-shortages",
+    "parentPath": "advocacy/federal-advocacy"
+  },
+  {
+    "urlSlug": "reform-uspstf",
+    "parentPath": "advocacy/federal-advocacy"
+  },
+  {
+    "urlSlug": "urologic-research",
+    "parentPath": "advocacy/federal-advocacy"
+  },
+  {
+    "urlSlug": "pca-survivorship",
+    "parentPath": "advocacy/federal-advocacy"
+  },
+  {
+    "urlSlug": "medical-liability-reform",
+    "parentPath": "advocacy/federal-advocacy"
+  },
+  {
+    "urlSlug": "ioase",
+    "parentPath": "advocacy/federal-advocacy"
+  },
+  {
+    "urlSlug": "fertility-priority",
+    "parentPath": "advocacy/federal-advocacy"
+  },
+  {
+    "urlSlug": "bladder-health-priority",
+    "parentPath": "advocacy/federal-advocacy"
+  },
+  {
+    "urlSlug": "coding-and-reimbursement-committee",
+    "parentPath": "advocacy/federal-advocacy"
+  },
+  {
+    "urlSlug": "device-or-bio-pharm-support",
+    "parentPath": "advocacy/federal-advocacy/coding-and-reimbursement-committee"
+  },
+  {
+    "urlSlug": "request-for-coding-guidance",
+    "parentPath": "advocacy/federal-advocacy/coding-and-reimbursement-committee"
+  },
+  {
+    "urlSlug": "coding-resources-and-information",
+    "parentPath": "advocacy/federal-advocacy"
+  },
+  {
+    "urlSlug": "medicare-links",
+    "parentPath": "advocacy/federal-advocacy/coding-resources-and-information"
+  },
+  {
+    "urlSlug": "payor-information",
+    "parentPath": "advocacy/federal-advocacy/coding-resources-and-information"
+  },
+  {
+    "urlSlug": "reimbursement",
+    "parentPath": "advocacy/federal-advocacy/coding-resources-and-information"
+  },
+  {
+    "urlSlug": "resources-for-coding-and-reimbursement-process",
+    "parentPath": "advocacy/federal-advocacy/coding-resources-and-information"
+  },
+  {
+    "urlSlug": "stress-urinary-incontinence-measures",
+    "parentPath": "advocacy/federal-advocacy/coding-resources-and-information"
+  },
+  {
+    "urlSlug": "state-advocacy",
+    "parentPath": "advocacy"
+  },
+  {
+    "urlSlug": "patient-advocacy",
+    "parentPath": "advocacy"
+  },
+  {
+    "urlSlug": "coalition-for-urologic-patients",
+    "parentPath": "advocacy/patient-advocacy"
+  },
+  {
+    "urlSlug": "aua-ama-house-of-delegates",
+    "parentPath": "advocacy"
+  },
+  {
+    "urlSlug": "get-involved",
+    "parentPath": "advocacy"
+  },
+  {
+    "urlSlug": "aua-health-policy-weekend",
+    "parentPath": "advocacy/get-involved"
+  },
+  {
+    "urlSlug": "gallagher-health-policy-scholar-program",
+    "parentPath": "advocacy/get-involved/scholar-and-fellowship-programs"
+  },
+  {
+    "urlSlug": "holtgrewe-legislative-fellowship-program",
+    "parentPath": "advocacy/get-involved/scholar-and-fellowship-programs"
+  },
+  {
+    "urlSlug": "hhs-announces-updates-to-testosterone-replacement-therapy-labeling",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources"
+  },
+  {
+    "urlSlug": "fda-announces-removal-of-black-box-warning-on-low-dose-vaginal-estrogen",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources"
+  },
+  {
+    "urlSlug": "first-coast-proposed-lcd",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/talking-points-fact-sheet-for-novitas"
+  },
+  {
+    "urlSlug": "in-office-ancillary-services-exception",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources"
+  },
+  {
+    "urlSlug": "preserve-the-ioase-exception-to-the-stark-law",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/in-office-ancillary-services-exception"
+  },
+  {
+    "urlSlug": "patient-access-to-psa-testing",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources"
+  },
+  {
+    "urlSlug": "cancer-research-funding",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/urology"
+  },
+  {
+    "urlSlug": "uspstf-reform",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources"
+  },
+  {
+    "urlSlug": "archived-comment-letters",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/uspstf-reform"
+  },
+  {
+    "urlSlug": "support-transparency-and-accountability-for-the-uspstf",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/uspstf-reform"
+  },
+  {
+    "urlSlug": "graduate-medical-education",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/workforce"
+  },
+  {
+    "urlSlug": "graduate-medical-education-(gme)",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/workforce/graduate-medical-education"
+  },
+  {
+    "urlSlug": "physician-payment-and-coverage-issues",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources"
+  },
+  {
+    "urlSlug": "medicare-physician-fee-schedule-cy-2027-proposed-rule-highlights",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "2026-medicare-physician-fee-schedule-final-rule-comparison-chart",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "wiser-model-operational-guide-for-providers-and-suppliers",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "cms-final-rule-released-for-2026-medicare-physician-fee-schedule-\u2013-high-level-summary",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "aua-comments-to-cms-2026-proposed-medicare-physician-fee-schedule",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "hospital-opp-and-ambulatory-surgical-center-cy-2026-proposed-rule-summary",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "medicare-physician-fee-schedule-cy-2026-proposed-rule-highlights",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "contract-year-2026-policy-and-technical-changes-to-the-medicare-advantage-program",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "2025-medicare-physician-fee-schedule-final-rule-comparison-chart",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "cms-final-rule-released-for-2025-medicare-physician-fee-schedule-high-level-summary",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "aua-comments-to-cms-2025-proposed-medicare-physician-fee-schedule-proposed-rule",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "aua-high-level-summary-on-the-medicare-physician-fee-schedule-(mpfs)-for-cy-2025",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "senate-finance-committee-hearing-and-testimonial",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "cms-updates-conversion-factor-for-physician-services",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "2024-medicare-payment-cuts-mitigated",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "advancing-interoperability-and-improving-the-prior-authorization-process-final-rule",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "medicare-hcpcs-code-g2211-coding-guidance",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "2024-medicare-physician-fee-schedule-final-rule",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "cms-final-rule-released-for-2024-medicare-physician-fee-schedule-high-level-summary",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "aua-comments-to-cms-2024-proposed-medicare-physician-fee-schedule-proposed-rule",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "auas-high-level-summary-on-the-medicare-physician-fee-schedule-(mpfs)-for-cy-2024",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "cms-finalizes-medicare-advantage-and-part-d-rule-improves-prior-authorization",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "aua-urges-congress-to-stabilize-medicare-in-macra-request-for-information-(rfi)",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "aua-mpfs-high-level-summary",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "aua-comments-to-cms-on-2023-proposed-medicare-physician-fee-schedule",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "2022-medicare-physician-fee-schedule",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "final-2021-physician-fee-schedule-released",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "aua-comments-to-cms-on-2021-proposed-medicare-physician-fee-schedule",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "2021-mpfs-rule",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "final-rule-released-for-2020-medicare-physician-fee-schedule-quality-payment-program",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "cms-releases-proposed-2019-medicare-physician-fee-schedule-rule",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "cms-releases-final-rule-for-the-2018-physician-fee-schedule",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "cms-releases-final-rule-for-2017-medicare-physician-fee-schedule",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "cms-proposes-new-updates-for-hospital-inpatient-services",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "cms-releases-proposed-rules-2014-medicare-changes",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "cms-releases-cy-2015-opps-and-asc-proposed-rule",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "cms-releases-final-rule-for-the-2015-physician-fee-schedule",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "cms-releases-proposed-rule-for-the-2015-physician-fee-schedule",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "cms-releases-2018-proposed-rule-physician-services",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues"
+  },
+  {
+    "urlSlug": "prior-authorization",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources"
+  },
+  {
+    "urlSlug": "physician-practice-information-survey",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources"
+  },
+  {
+    "urlSlug": "physician-practice-input-needed-to-help-inform-accurate-physician-payment",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-practice-information-survey"
+  },
+  {
+    "urlSlug": "update-medicare-physician-payment",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/physician-practice-information-survey"
+  },
+  {
+    "urlSlug": "fireside-chats",
+    "parentPath": "advocacy"
+  },
+  {
+    "urlSlug": "transwomen-webinar",
+    "parentPath": "advocacy"
+  },
+  {
+    "urlSlug": "congress-expands-telehealth-access-in-the-fiscal-year-2023-omnibus-spending-package",
+    "parentPath": "advocacy"
+  },
+  {
+    "urlSlug": "advocacy-101",
+    "parentPath": "advocacy"
+  },
+  {
+    "urlSlug": "advocacy-webinars",
+    "parentPath": "advocacy/advocacy-101"
+  },
+  {
+    "urlSlug": "research-and-data",
+    "parentPath": null
+  },
+  {
+    "urlSlug": "aua-census",
+    "parentPath": "research-and-data"
+  },
+  {
+    "urlSlug": "census-overview",
+    "parentPath": "research-and-data/aua-census"
+  },
+  {
+    "urlSlug": "census-public-use-micro-datasets",
+    "parentPath": "research-and-data/aua-census"
+  },
+  {
+    "urlSlug": "census-faqs",
+    "parentPath": "research-and-data/aua-census"
+  },
+  {
+    "urlSlug": "census-results",
+    "parentPath": "research-and-data/aua-census"
+  },
+  {
+    "urlSlug": "official-rules-for-aua-census-gift-card-prize-drawing",
+    "parentPath": "research-and-data/aua-census"
+  },
+  {
+    "urlSlug": "research-awards",
+    "parentPath": "research-and-data"
+  },
+  {
+    "urlSlug": "research-grant-opportunities",
+    "parentPath": "research-and-data/research-awards"
+  },
+  {
+    "urlSlug": "the-urology-care-foundation-bridge-award-supported-by-dornier-medtech",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "urlSlug": "bridge-award-winners",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/the-urology-care-foundation-bridge-award-supported-by-dornier-medtech"
+  },
+  {
+    "urlSlug": "medical-student-fellowships",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "urlSlug": "2025-medical-student-fellows",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/medical-student-fellowships"
+  },
+  {
+    "urlSlug": "2024-medical-student-fellows",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/medical-student-fellowships"
+  },
+  {
+    "urlSlug": "2023-summer-medical-student-fellows",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/medical-student-fellowships"
+  },
+  {
+    "urlSlug": "2022-summer-medical-student-fellows",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/medical-student-fellowships"
+  },
+  {
+    "urlSlug": "boston-scientific-medical-student-innovation-fellowship",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "urlSlug": "past-boston-scientific-medical-student-innovation-fellows",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/boston-scientific-medical-student-innovation-fellowship"
+  },
+  {
+    "urlSlug": "residency-research-awards",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "urlSlug": "2025-residency-research-awards-fellows",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/residency-research-awards"
+  },
+  {
+    "urlSlug": "residency-research-awards-fellows",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/residency-research-awards"
+  },
+  {
+    "urlSlug": "lead-awards",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "urlSlug": "lead-researcher-profiles",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/lead-awards"
+  },
+  {
+    "urlSlug": "research-scholar-awards",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "urlSlug": "past-research-scholars-x23094",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/research-scholar-awards"
+  },
+  {
+    "urlSlug": "2025-2026-research-scholars",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/research-scholar-awards"
+  },
+  {
+    "urlSlug": "2025-2027-research-scholars",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/research-scholar-awards"
+  },
+  {
+    "urlSlug": "2026-2027-research-scholars",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/research-scholar-awards"
+  },
+  {
+    "urlSlug": "2026-2028-research-scholars",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/research-scholar-awards"
+  },
+  {
+    "urlSlug": "rising-stars-in-urology-research-awards",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "urlSlug": "rising-stars-award-winners",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/rising-stars-in-urology-research-awards"
+  },
+  {
+    "urlSlug": "aua-data-research-program",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "urlSlug": "2018-data-grant-recipients",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/aua-data-research-program"
+  },
+  {
+    "urlSlug": "2017-data-grant-recipients",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/aua-data-research-program"
+  },
+  {
+    "urlSlug": "2016-data-grant-recipients",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/aua-data-research-program"
+  },
+  {
+    "urlSlug": "2015-data-grant-recipients",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/aua-data-research-program"
+  },
+  {
+    "urlSlug": "data-dictionaries",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/aua-data-research-program"
+  },
+  {
+    "urlSlug": "aua-data-research-program-faqs",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/aua-data-research-program"
+  },
+  {
+    "urlSlug": "data-research-program-and-past-data-grant-recipients",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/aua-data-research-program"
+  },
+  {
+    "urlSlug": "2024-data-research-program-recipients",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/aua-data-research-program/data-research-program-and-past-data-grant-recipients"
+  },
+  {
+    "urlSlug": "2025-data-research-program-recipients",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/aua-data-research-program/data-research-program-and-past-data-grant-recipients"
+  },
+  {
+    "urlSlug": "2026-data-research-program-recipients-x22628",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/aua-data-research-program/data-research-program-and-past-data-grant-recipients"
+  },
+  {
+    "urlSlug": "research-honors-program",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "urlSlug": "professional-society-funding",
+    "parentPath": "research-and-data/research-awards"
+  },
+  {
+    "urlSlug": "foundation-funding",
+    "parentPath": "research-and-data/research-awards"
+  },
+  {
+    "urlSlug": "aua-quality-(aqua)-registry",
+    "parentPath": "research-and-data"
+  },
+  {
+    "urlSlug": "aqua-news-flash",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry"
+  },
+  {
+    "urlSlug": "aqua-news-flash-archives",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-three-aqua-developed-measures-receive-cms-benchmarks-x23105",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-mips-value-pathway-for-urology",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-aqua-reg-approved-qcdr-for-2026-reporting-period",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-2025-mips-submission-checklist",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-registry-participants-by-the-numbers-2025",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-mips-exception-for-texas-storms-and-flooding",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-cms-delays-the-release-of-2024-mips-final-scores-and-targeted-review",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-suspended-improvement-activities-(ias)-for-the-2025py",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-why-should-clinicians-participate-in-the-aqua-registry",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-three-aqua-developed-measures-receive-cms-benchmarks",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-approved-as-qcdr-for-2025",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-new-safer-guides-are-now-available",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-2024-registry-participants-by-the-numbers",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-submit-your-comments-on-the-proposed-urology-mvp",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-requirements-to-receive-a-cdr-participation-letter",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-what-should-you-do-if-you-notice-an-inaccurate-measure",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-free-quality-improvement-education",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-aua-data-research-program-x21433",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-a-decade-of-aqua-registry-data",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-new-urology-specific-measures",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-four-aqua-measures-receive-cms-benchmarks",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-qcdr-for-the-2024-reporting-period",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-registry-participants-by-the-numbers",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-update-\u2013-aqua-registrys-2024-participation-offerings",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-request-for-feedback-renal-or-ureteral-stone-surgical-treatment-cost-measure",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-update-on-mvps-in-the-aqua-registry",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "locations",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash/aqua-news-flash-review-your-providers"
+  },
+  {
+    "urlSlug": "aqua-news-flash-aua-data-research-program",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-new-patient-educational-materials-are-now-available-on-the-aqua-registry-dashboard",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-utilizing-the-aqua-registry-for-quality-improvement",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-aqua-by-the-numbers",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-2023-priority-measures",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-testing-a-new-cost-measure-for-prostate-cancer",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "aqua-news-flash-music4-resource",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "urlSlug": "enroll-in-aqua",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry"
+  },
+  {
+    "urlSlug": "aqua-program-information",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry"
+  },
+  {
+    "urlSlug": "aqua-registry-features",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-program-information"
+  },
+  {
+    "urlSlug": "aqua-qcdr-measures",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-program-information"
+  },
+  {
+    "urlSlug": "faqs",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-program-information"
+  },
+  {
+    "urlSlug": "mips-reporting",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry"
+  },
+  {
+    "urlSlug": "aqua-registry-features-by-practice",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry"
+  },
+  {
+    "urlSlug": "solo-and-private-practices",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-registry-features-by-practice"
+  },
+  {
+    "urlSlug": "large-groups-and-institutions",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-registry-features-by-practice"
+  },
+  {
+    "urlSlug": "aqua-registry-participants",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry"
+  },
+  {
+    "urlSlug": "resources",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry"
+  },
+  {
+    "urlSlug": "urochart-partnership",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry"
+  },
+  {
+    "urlSlug": "verana-collaboration-faqs",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry"
+  },
+  {
+    "urlSlug": "expanded-partnership-faqs",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry"
+  },
+  {
+    "urlSlug": "research-education-and-mentorship-programs",
+    "parentPath": "research-and-data"
+  },
+  {
+    "urlSlug": "early-career-investigators-workshop",
+    "parentPath": "research-and-data/research-education-and-mentorship-programs"
+  },
+  {
+    "urlSlug": "early-career-investigators-showcase",
+    "parentPath": "research-and-data/research-education-and-mentorship-programs"
+  },
+  {
+    "urlSlug": "past-presenters",
+    "parentPath": "research-and-data/research-education-and-mentorship-programs/early-career-investigators-showcase"
+  },
+  {
+    "urlSlug": "usmart-program",
+    "parentPath": "research-and-data/research-education-and-mentorship-programs"
+  },
+  {
+    "urlSlug": "usmart-participants",
+    "parentPath": "research-and-data/research-education-and-mentorship-programs/usmart-program"
+  },
+  {
+    "urlSlug": "data-and-statistical-services",
+    "parentPath": "research-and-data"
+  },
+  {
+    "urlSlug": "data-processes",
+    "parentPath": "research-and-data/data-and-statistical-services"
+  },
+  {
+    "urlSlug": "data-sources",
+    "parentPath": "research-and-data/data-and-statistical-services"
+  },
+  {
+    "urlSlug": "research-resources",
+    "parentPath": "research-and-data"
+  },
+  {
+    "urlSlug": "research-related-societies",
+    "parentPath": "research-and-data/research-resources"
+  },
+  {
+    "urlSlug": "50th-anniversary-of-research",
+    "parentPath": "research-and-data"
+  },
+  {
+    "urlSlug": "aua-overview",
+    "parentPath": "about-us"
+  },
+  {
+    "urlSlug": "history-of-the-aua",
+    "parentPath": "about-us/aua-overview"
+  },
+  {
+    "urlSlug": "why-urology",
+    "parentPath": "about-us/aua-overview"
+  },
+  {
+    "urlSlug": "aua-governance-overview",
+    "parentPath": "about-us/aua-governance"
+  },
+  {
+    "urlSlug": "committees",
+    "parentPath": "about-us/aua-governance"
+  },
+  {
+    "urlSlug": "education-council-committees",
+    "parentPath": "about-us/aua-governance/committees"
+  },
+  {
+    "urlSlug": "governance-committees",
+    "parentPath": "about-us/aua-governance/committees"
+  },
+  {
+    "urlSlug": "membership-council-committees",
+    "parentPath": "about-us/aua-governance/committees"
+  },
+  {
+    "urlSlug": "public-policy-and-advocacy-committees",
+    "parentPath": "about-us/aua-governance/committees"
+  },
+  {
+    "urlSlug": "publications-committees",
+    "parentPath": "about-us/aua-governance/committees"
+  },
+  {
+    "urlSlug": "research-council-committees",
+    "parentPath": "about-us/aua-governance/committees"
+  },
+  {
+    "urlSlug": "science-and-quality-committees",
+    "parentPath": "about-us/aua-governance/committees"
+  },
+  {
+    "urlSlug": "urology-care-foundation",
+    "parentPath": "about-us/aua-governance/committees"
+  },
+  {
+    "urlSlug": "expert-witness-registry",
+    "parentPath": "about-us/aua-governance"
+  },
+  {
+    "urlSlug": "expert-witness-registry-renewal",
+    "parentPath": "about-us/aua-governance/expert-witness-registry"
+  },
+  {
+    "urlSlug": "awards",
+    "parentPath": "about-us/aua-governance"
+  },
+  {
+    "urlSlug": "aua-distinguished-awards",
+    "parentPath": "about-us/aua-governance/awards"
+  },
+  {
+    "urlSlug": "research-awards-and-grants",
+    "parentPath": "about-us/aua-governance/awards"
+  },
+  {
+    "urlSlug": "advocacy-scholars-and-fellows-programs",
+    "parentPath": "about-us/aua-governance/awards"
+  },
+  {
+    "urlSlug": "other-awards-and-grants",
+    "parentPath": "about-us/aua-governance/awards"
+  },
+  {
+    "urlSlug": "aua-bylaws",
+    "parentPath": "about-us/aua-governance"
+  },
+  {
+    "urlSlug": "annual-business-meeting",
+    "parentPath": "about-us/aua-governance"
+  },
+  {
+    "urlSlug": "in-memoriam",
+    "parentPath": "about-us/aua-governance/annual-business-meeting"
+  },
+  {
+    "urlSlug": "aua-financial-information",
+    "parentPath": "about-us/aua-governance"
+  },
+  {
+    "urlSlug": "commitment-to-transparency",
+    "parentPath": "about-us/aua-governance"
+  },
+  {
+    "urlSlug": "leadership",
+    "parentPath": "about-us"
+  },
+  {
+    "urlSlug": "past-presidents",
+    "parentPath": "about-us/leadership/board-of-directors"
+  },
+  {
+    "urlSlug": "executive-team",
+    "parentPath": "about-us/leadership"
+  },
+  {
+    "urlSlug": "disciplinary-actions-of-aua-members",
+    "parentPath": "about-us/aua-ethics"
+  },
+  {
+    "urlSlug": "code-of-ethics",
+    "parentPath": "about-us/aua-ethics"
+  },
+  {
+    "urlSlug": "aua-statements",
+    "parentPath": "about-us"
+  },
+  {
+    "urlSlug": "definition-statement",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "coi-disclosures",
+    "parentPath": "about-us/aua-statements/definition-statement"
+  },
+  {
+    "urlSlug": "productive-work-environment",
+    "parentPath": "about-us/policy-and-position-statements"
+  },
+  {
+    "urlSlug": "beers-criteria-for-potentially-inappropriate-medication",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "circumcision",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "commercial-products-endorsement-of",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "declaration-of-professional-responsibility",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "erectile-dysfunction-diagnostic-evaluation-of",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "expert-witness-testimony-in-medical-liability-cases",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "family-medical-leave",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "fee-splitting",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "guiding-principles-for-membership-interactions-with-industry",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "hospital-admittance-and-discharge",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "transgender-care",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "joint-statement-on-dsd",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "in-office-ancillary-services-guiding-principles",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "licensure-and-certification",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "medical-ethics-principles-of",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "medical-and-surgical-procedures-patenting-of",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "penile-augmentation-surgery",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "physician-services-taxation-of",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "physician-workforce-planning-and-graduate-medical-education",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "prior-authorization-and-utilization-management-reform-principles",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "privileges-for-staff-urologists-delineation-of",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "specialty-care-direct-access-to",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "telemedicine",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "urologic-malignancy-care-of-patients-with",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "urologic-ultrasound-utilization-consensus-statement-on",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "use-of-off-label-drugs-for-the-treatment-of-urological-patients",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "joint-statement-of-aua-and-eau-on-ethical-ai-integration-and-intellectual-property-protections",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "use-of-vaginal-mesh-for-the-surgical-treatment-of-stress-urinary-incontinence",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "ama-membership-encouraged",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "aua-and-urology-care-foundation-condemn-racism-in-all-forms-and-call-for-end-to-racial-inequalities",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "diversity-statement",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "neutrality-statement",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "urological-curriculum-medical-student",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "urology",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "violence-as-a-public-health-concern",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "hpv-vaccination-for-males-and-females",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "opioid-use",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "urlSlug": "related-organizations",
+    "parentPath": "about-us"
+  },
+  {
+    "urlSlug": "industry-relations",
+    "parentPath": "about-us"
+  },
+  {
+    "urlSlug": "aua-annual-meeting",
+    "parentPath": "about-us/industry-support-opportunities"
+  },
+  {
+    "urlSlug": "aua-industry-relations-policy-updates",
+    "parentPath": "about-us/industry-support-opportunities"
+  },
+  {
+    "urlSlug": "accme-standards-for-commerical-support",
+    "parentPath": "about-us/industry-support-opportunities/aua-industry-relations-policy-updates"
+  },
+  {
+    "urlSlug": "industry-policy-for-promoting-product-or-treatment-reference-in-any-aua-guideline",
+    "parentPath": "about-us/industry-support-opportunities/aua-industry-relations-policy-updates"
+  },
+  {
+    "urlSlug": "auaplus",
+    "parentPath": "about-us/industry-support-opportunities"
+  },
+  {
+    "urlSlug": "industry-insider",
+    "parentPath": "about-us/industry-support-opportunities"
+  },
+  {
+    "urlSlug": "media-center",
+    "parentPath": "about-us"
+  },
+  {
+    "urlSlug": "press-center",
+    "parentPath": "about-us/media-center"
+  },
+  {
+    "urlSlug": "state-of-mens-health-act-and-mens-health-policy-alliance",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-names-2026-2027-h-logan-holtgrewe-legislative-fellow",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "ignoring-symptoms-can-be-costly-check-in-not-out-this-mens-health-month",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-honors-2026-research-scholars-driving-innovation-in-urologic-care",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-announces-the-early-stage-innovation-nexus-awardee-sponsored-by-laborie",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-names-new-officers-and-board-members-x23068",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "new-study-explores-erectile-dysfunction-risk-associated-with-low-dose-finasteride-use",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "new-research-suggest-medications-linked-to-subtle-changes-in-semen-quality",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "studies-highlight-advances-in-kidney-stone-prevention-and-anesthesia-free-stone-removal",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "new-studies-position-mens-reproductive-health-as-an-early-indicator-of-overall-wellness",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "studies-highlight-advances-in-bladder-cancer-care-and-emerging-environmental-risks",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "studies-highlight-personalized-approaches-to-prostate-cancer-care-from-diet-and-surgery-to-public-awareness",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "research-highlights-diet-and-hormone-therapy-advances-in-preventing-recurrent-utis-in-women",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-releases-advanced-prostate-cancer-guideline-amendment",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-releases-the-management-of-luts-attributed-to-bph-guideline",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "new-aua-census-shows-shifts-in-urology-workforce-practice-workloads-and-ai-use",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "breaking-the-silence-on-womens-urologic-health-for-womens-health-month",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-and-openevidence-collaborate-to-expand-access-to-evidence-based-urologic-clinical-practice-guidelines",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-honors-leaders-advancing-the-future-of-urologic-research-with-2026-awards-of-distinction",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-releases-clinically-localized-prostate-cancer-guideline-amendment",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "testicular-cancer-awareness-month-urges-men-dont-drop-the-ball-check-yours",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-hhs-fda-cdc-to-launch-landmark-womens-health-partnership",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-funds-three-innovative-projects-through-its-data-research-program-to-advance-urological-research",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "dont-kidney-around-this-national-kidney-month-get-the-facts-your-kidneys-wish-you-knew",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-announces-two-new-members-of-board-of-directors",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "a-new-era-for-mens-health-begins-aua-proud-to-support-landmark-office-of-mens-health-legislation",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-announces-updates-to-the-early-detection-of-prostate-cancer-guideline",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "keep-life-flowing-smoothly-this-national-cancer-prevention-month-your-guide-to-taking-action",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-selects-43-innovators-for-2026-innovation-nexus-forum",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "2026-humanitarian-recognition-awardee",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-announces-2026-gallagher-health-policy-scholar",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-releases-the-2026-vasectomy-guideline",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "excellence-in-action-aua-reveals-2026-distinguished-award-winners",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-releases-the-surgical-management-of-kidney-and-ureteral-stones-guideline",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-and-urology-care-foundation-launch-groundbreaking-bridge-award-to-sustain-urology-research",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "new-guide-helps-patients-navigate-genetic-testing-for-advanced-prostate-cancer",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "behind-the-bathroom-door-urology-care-foundation-flushes-out-myths-for-bladder-health-month",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-names-urology-trailblazer-victor-nitti-md-as-secretary-elect",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-announces-recipient-of-the-2025-rising-stars-in-urology-research-award",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-release-recurrent-uncomplicated-urinary-tract-infections-in-women-guideline-amendment",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "sexual-health-is-health-this-september-there-is-no-shame-just-science",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "prostate-of-mind-the-mindset-that-could-save-your-life-this-september",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "2025-urology-care-foundation-research-scholar-awardees-announced",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "the-urology-care-foundation-is-highlighting-the-hidden-hazards-this-firefighter-cancer-awareness-month",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-partners-with-pfizer-to-launch-15-million-rfp-to-advance-care-for-patients-with-advanced-prostate-cancer",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "your-health-your-move-urology-care-foundation-promotes-proactive-steps-this-national-cancer-prevention-month",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-announces-2025-innovation-nexus-showcase-selections",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "shaping-the-future-of-urology-match-day-2025-celebrates-the-next-generation-of-urologists",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "2025-aua-data-research-program-awardees-announced",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-releases-microhematuria-guideline-amendment",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "dont-kidney-yourself-the-urology-care-foundation-is-encouraging-you-to-be-proactive-for-national-kidney-month",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-announces-2025-humanitarian-recognition-awardee",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-releases-new-guideline-on-chronic-pelvic-pain-in-men",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "the-american-urological-association-releases-2024-aua-census-results",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-announces-2025-research-awards-of-distinction",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "leading-the-future-of-urologic-care-aua-names-science-and-quality-chair-elect",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "dont-drop-the-ball-check-yours-testicular-cancer-awareness-starts-with-you",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-leadership-program-announces-2025-class",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "studies-show-breakthroughs-in-male-contraception-including-first-male-contraceptive-hydrogel",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "studies-unveil-groundbreaking-advances-in-prostate-cancer-from-ai-driven-detection-to-non-invasive-testing",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "studies-uncover-hidden-urologic-risks-how-water-chemicals-and-everyday-exposures-impact-urinary-health",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "studies-showcase-womens-and-childrens-bladder-health-from-early-symptoms-to-innovative-treatments",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "studies-link-lifestyle-exercise-and-yoga-to-improved-urologic-health-and-cancer-outcomes",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "studies-explore-how-new-treatments-metabolic-health-and-weight-loss-shape-sexual-wellness-for-men-and-women",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "studies-show-insurance-barriers-and-costs-influence-screening-treatment-and-access-in-urology",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-releases-new-guideline-on-genitourinary-syndrome-of-menopause",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "whats-up-down-there-the-urology-care-foundation-raises-awareness-for-womens-health-month",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-names-new-officers-and-board-members",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "from-awareness-to-action-take-charge-of-your-urological-health-this-mens-health-month",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "collaborations-for-change-aua-and-pfizer-select-recipients-for-15-million-grant-program-to-improve-advanced-prostate-cancer-care",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-announces-2025-2026-h-logan-holtgrewe-legislative-fellow",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-announces-2025-health-equity-fellow",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-names-new-secretary-to-board-of-directors",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "hundreds-of-future-urologists-celebrate-match-day-2024",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-announces-new-vice-president-and-deputy-director-position",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-releases-salvage-therapy-for-prostate-cancer-guideline",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "filtering-the-facts-the-urology-care-foundation-spreads-awareness-for-national-kidney-month",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "dont-drop-the-ball-the-urology-care-foundation-urges-men-to-check-themselves-for-testicular-cancer-awareness-month",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-announces-2024-research-awards-of-distinction",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-sufu-release-guideline-on-diagnosis-and-treatment-of-overactive-bladder",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-asco-suo-release-amendment-to-non-metastatic-muscle-invasive-bladder-cancer-guideline",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-spreads-awareness-for-national-cancer-prevention-month",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-suo-release-amendment-to-non-muscle-invasive-bladder-cancer-guideline",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-announces-three-new-additions-to-board-of-directors",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-names-next-research-chair",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-names-new-associate-secretary-for-the-asia-and-australia-region",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-announces-2025-gallagher-health-policy-scholar",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-announces-2025-humanitarian-grant-recipients",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-announces-2024-humanitarian-recognition-awardee",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-announces-2024-gallagher-health-policy-scholar",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-announces-2024-innovation-nexus-showcase-selections",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "2024-urology-care-foundation-research-scholar-awardees-announced",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "2024-aua-data-research-program-awardees-announced",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-announces-2024-humanitarian-recognition-awardee-x21023",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-announces-2024-cohort-of-urology-scientific-mentoring-and-research-training-(usmart)-academy",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "studies-indicate-environmental-factors-can-impact-urologic-health",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "studies-find-disparities-in-urologic-cancer-diagnosis-and-care-for-black-americans",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-announces-2025-distinguished-awards-recognizing-top-urologists",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-announces-new-director-of-research",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-announces-recipient-of-the-2024-rising-stars-in-urology-research-award",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-is-flushing-out-myths-for-bladder-health-month",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "the-american-urological-association-announces-new-science-and-quality-fellow",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "verana-health-and-the-aqua-registry",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-encourages-proactive-steps-for-prostate-health-this-september",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "urology-care-foundation-announces-2024-humanitarian-grant-recipients",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-releases-male-infertility-guideline-amendment",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-releases-incontinence-after-prostate-treatment-guideline-amendment",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "the-american-urological-association-releases-2023-aua-census-results",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-announces-2024-2025-h-logan-holtgrewe-legislative-fellow",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "the-urology-care-foundation-encourages-men-to-take-charge-of-their-health-one-checkup-at-a-time-for-mens-health-month",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "studies-show-diabetes-medicine-can-cause-urologic-complications",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "research-demonstrates-how-technology-and-ai-can-improve-urologic-health",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "research-presented-at-aua-2024-indicates-the-cost-of-prescription-drugs-is-a-significant-barrier-to-care",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "studies-show-continued-efficacy-of-new-uti-vaccine",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "studies-presented-at-aua-2024-highlight-latest-research-on-voiding-dysfunction-and-bph",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "studies-find-erectile-dysfunction-commercial-bias-is-more-prevalent-on-tiktok-than-youtube",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "research-presented-at-aua-2024-indicates-vasectomies-have-increased-since-dobbs-decision",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "american-urological-association-names-new-editor-of-urology-practice",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "aua-in-the-news",
+    "parentPath": "about-us/media-center"
+  },
+  {
+    "urlSlug": "urine-the-know",
+    "parentPath": "about-us/media-center"
+  },
+  {
+    "urlSlug": "contact-us",
+    "parentPath": "about-us/media-center/press-center"
+  },
+  {
+    "urlSlug": "terms-of-use",
+    "parentPath": "about-us/media-center"
+  },
+  {
+    "urlSlug": "social-media-in-the-urologic-community",
+    "parentPath": "about-us/media-center/terms-of-use"
+  }
+]

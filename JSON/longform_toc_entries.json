@@ -1,0 +1,542 @@
+[
+  {
+    "bucket": "Membership",
+    "term": "Councils, Committees, & Workgroups",
+    "title": "2026 Young Urologist of the Year Award Winners",
+    "path": "/membership/membership-committees/young-urologists-committee/young-urologists-of-the-year-award-winners"
+  },
+  {
+    "bucket": "Career Growth",
+    "term": "Grants and Fellowships",
+    "title": "Current Global Scholars",
+    "path": "/meetings-and-education/global-academic-exchanges/current-scholars"
+  },
+  {
+    "bucket": "Career Growth",
+    "term": "Grants and Fellowships",
+    "title": "2019 International Exchange and Scholar Program Past Participants",
+    "path": "/meetings-and-education/global-academic-exchanges/2019-past-participants"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Medical Student Curriculum: Acute Scrotum",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/acute-scrotum"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Medical Student Curriculum: Adult UTI",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/adult-uti"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Medical Student Curriculum: Bladder Drainage",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/bladder-drainage"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Medical Student Curriculum: Benign Prostatic Hypertrophy (BPH)",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/bph"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Medical Student Curriculum: Erectile Dysfunction",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/ed"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Medical Student Curriculum: Hematuria",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/hematuria"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Medical Student Curriculum: Kidney Stones",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/kidney-stones"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Male Infertility",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/male-infertility-curriculum"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Medical Student Curriculum: Pediatric Oncology",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/pediatric-oncology"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Medical Student Curriculum: Pediatric Urinary Tract Infections",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/pediatric-uti"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Medical Student Curriculum: Pelvic and Bladder Pain",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/pelvic-and-bladder-pain"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Medical Student Curriculum: Prostate Cancer Screening and Management",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/psa"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Medical Student Curriculum: Transgender and Gender Diverse Patient Urologic Care",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/transgender-and-gender-diverse-patient-care"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Medical Student Curriculum: Upper Tract Urothelial Carcinoma",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/upper-tract-urothelial-carcinoma"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Medical Student Curriculum: Urologic Emergencies",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/urologic-emergencies"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Medical Student Curriculum: Urinary Incontinence",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/urinary-incontinence"
+  },
+  {
+    "bucket": "Education",
+    "term": "Medical Students",
+    "title": "Medical Student Curriculum: Urethral Strictures",
+    "path": "/meetings-and-education/for-medical-students/medical-students-curriculum/urethral-strictures"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Advanced Prostate Cancer: AUA/SUO Guideline (2026)",
+    "path": "/guidelines-and-quality/guidelines/advanced-prostate-cancer"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Clinically Localized Prostate Cancer: AUA/ASTRO Guideline (2026)",
+    "path": "/guidelines-and-quality/guidelines/clinically-localized-prostate-cancer"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Early Detection of Prostate Cancer: AUA/SUO Guideline (2026)",
+    "path": "/guidelines-and-quality/guidelines/early-detection-of-prostate-cancer-guideline"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Vasectomy: AUA Guideline (2026)",
+    "path": "/guidelines-and-quality/guidelines/vasectomy-guideline"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Surgical Management of Kidney and Ureteral Stones: AUA Guideline (2025)",
+    "path": "/guidelines-and-quality/guidelines/surgical-management-of-kidney-and-ureteral-stones"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Recurrent Uncomplicated Urinary Tract Infections in Women: AUA/CUA/SUFU Guideline (2025)",
+    "path": "/guidelines-and-quality/guidelines/recurrent-uti"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Genitourinary Syndrome of Menopause: AUA/SUFU/AUGS Guideline (2025)",
+    "path": "/guidelines-and-quality/guidelines/genitourinary-syndrome-of-menopause"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Diagnosis and Management of Male Chronic Pelvic Pain (Chronic Prostatitis/Chronic Pelvic Pain Syndrome and Chronic Scrotal Content Pain): AUA Guideline",
+    "path": "/guidelines-and-quality/guidelines/male-chronic-pelvic-pain"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Microhematuria: AUA/SUFU Guideline",
+    "path": "/guidelines-and-quality/guidelines/microhematuria"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Diagnosis and Treatment of Infertility in Men: AUA/ASRM Guideline",
+    "path": "/guidelines-and-quality/guidelines/male-infertility"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Incontinence after Prostate Treatment: AUA/GURS/SUFU Guideline",
+    "path": "/guidelines-and-quality/guidelines/incontinence-after-prostate-treatment"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "The AUA/SUFU Guideline on the Diagnosis and Treatment of Idiopathic Overactive Bladder",
+    "path": "/guidelines-and-quality/guidelines/idiopathic-overactive-bladder"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Treatment of Non-Metastatic Muscle-Invasive Bladder Cancer: AUA/ASCO/ASTRO/SUO Guideline",
+    "path": "/guidelines-and-quality/guidelines/bladder-cancer-non-metastatic-muscle-invasive-guideline"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Salvage Therapy for Prostate Cancer: AUA/ASTRO/SUO Guideline",
+    "path": "/guidelines-and-quality/guidelines/salvage-therapy-for-prostate-cancer"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Bladder Cancer: Non-Muscle Invasive Guideline",
+    "path": "/guidelines-and-quality/guidelines/bladder-cancer-non-muscle-invasive-guideline"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Diagnosis and Treatment of Early-Stage Testicular Cancer: AUA Guideline",
+    "path": "/guidelines-and-quality/guidelines/testicular-cancer-guideline"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Urethral Stricture - AUA Guideline",
+    "path": "/guidelines-and-quality/guidelines/urethral-stricture-guideline"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Diagnosis and Management of Non-Metastatic Upper Tract Urothelial Carcinoma: AUA/SUO Guideline",
+    "path": "/guidelines-and-quality/guidelines/non-metastatic-upper-tract-urothelial-carcinoma"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Stress Urinary Incontinence Guideline",
+    "path": "/guidelines-and-quality/guidelines/stress-urinary-incontinence-(sui)-guideline"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Diagnosis and Treatment of Interstitial Cystitis/Bladder Pain Syndrome (2022)",
+    "path": "/guidelines-and-quality/guidelines/bladder-pain-syndrome-(2022)"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Diagnosis and Management of Priapism: AUA/SMSNA Guideline (2022)",
+    "path": "/guidelines-and-quality/guidelines/smsna-guideline-(2022)"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Neurogenic Lower Urinary Tract Dysfunction: AUA/SUFU Guideline (2021)",
+    "path": "/guidelines-and-quality/guidelines/adult-neurogenic-lower-urinary-tract-dysfunction"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Acute Ischemic Priapism: an AUA/SMSNA Guideline",
+    "path": "/guidelines-and-quality/guidelines/acute-ischemic-priapism"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Renal Mass and Localized Renal Cancer: Evaluation, Management, and Follow Up (2021)",
+    "path": "/guidelines-and-quality/guidelines/renal-mass-and-localized-renal-cancer-evaluation-management-and-follow-up"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Disorders of Ejaculation: An AUA/SMSNA Guideline (2020)",
+    "path": "/guidelines-and-quality/guidelines/disorders-of-ejaculation"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Evaluation and Treatment of Cryptorchidism (2025)",
+    "path": "/guidelines-and-quality/guidelines/cryptorchidism-guideline"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Erectile Dysfunction (ED) Guideline",
+    "path": "/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Peyronie's Disease Guideline",
+    "path": "/guidelines-and-quality/guidelines/peyronies-disease-guideline"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Prostate Cancer: Hypofractionated Radiotherapy Guideline",
+    "path": "/guidelines-and-quality/guidelines/prostate-cancer-hypofractionated-radiotherapy-guideline"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Kidney Stones: Medical Mangement Guideline",
+    "path": "/guidelines-and-quality/guidelines/kidney-stones-medical-mangement-guideline"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Testosterone Deficiency Guideline",
+    "path": "/guidelines-and-quality/guidelines/testosterone-deficiency-guideline"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Urotrauma Guideline",
+    "path": "/guidelines-and-quality/guidelines/urotrauma-guideline"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Vesicoureteral Reflux Guideline",
+    "path": "/guidelines-and-quality/guidelines/vesicoureteral-reflux-guideline"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Guidelines",
+    "title": "Vesicoureteral Reflux Topics",
+    "path": "/guidelines-and-quality/guidelines/vesicoureteral-reflux-topics"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Concensus Statements",
+    "title": "Non-Neurogenic Chronic Urinary Retention: Consensus Definition, Management Strategies, and Future Opportunities",
+    "path": "/guidelines-and-quality/quality-and-measurement/quality-improvement/clinical-consensus-statement-and-quality-improvement-issue-brief-(ccs-and-qiib)/non-neurogenic-chronic-urinary-retention-consensus-x22670"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Concensus Statements",
+    "title": "Optimizing Outcomes in Urologic Surgery: Intraoperative Considerations",
+    "path": "/guidelines-and-quality/quality-and-measurement/quality-improvement/clinical-consensus-statement-and-quality-improvement-issue-brief-(ccs-and-qiib)/optimizing-outcomes-in-urologic-surgery-intraoperative-considerations"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Concensus Statements",
+    "title": "Urologic Procedures and Antimicrobial Prophylaxis (2019)",
+    "path": "/guidelines-and-quality/quality-and-measurement/quality-improvement/clinical-consensus-statement-and-quality-improvement-issue-brief-(ccs-and-qiib)/urologic-procedures-and-antimicrobial-prophylaxis"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Concensus Statements",
+    "title": "Implementation of Shared Decision-Making into Urological Practice",
+    "path": "/guidelines-and-quality/quality-and-measurement/quality-improvement/clinical-consensus-statement-and-quality-improvement-issue-brief-(ccs-and-qiib)/implementation-of-shared-decision-making-into-urological-practice"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Concensus Statements",
+    "title": "Indwelling Urinary Catheter Management of the Acute Patient",
+    "path": "/guidelines-and-quality/quality-and-measurement/quality-improvement/clinical-consensus-statement-and-quality-improvement-issue-brief-(ccs-and-qiib)/indwelling-urinary-catheter-management-of-the-acute-patient"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Concensus Statements",
+    "title": "Rationale and Strategies for Reducing Urologic Post-Operative Opioid Prescribing",
+    "path": "/guidelines-and-quality/quality-and-measurement/quality-improvement/clinical-consensus-statement-and-quality-improvement-issue-brief-(ccs-and-qiib)/rationale-and-strategies-for-reducing-urologic-post-operative-opioid-prescribing"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Concensus Statements",
+    "title": "Non-Neurogenic Chronic Urinary Retention: Consensus Definition, Management Strategies, and Future Opportunities",
+    "path": "/guidelines-and-quality/quality-and-measurement/quality-improvement/clinical-consensus-statement-and-quality-improvement-issue-brief-(ccs-and-qiib)/non-neurogenic-chronic-urinary-retention-consensus-2"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Concensus Statements",
+    "title": "Optimizing Outcomes in Urological Surgery: Pre-Operative Care for the Patient Undergoing Urologic Surgery or Procedure",
+    "path": "/guidelines-and-quality/quality-and-measurement/quality-improvement/clinical-consensus-statement-and-quality-improvement-issue-brief-(ccs-and-qiib)/optimizing-outcomes-in-urologic-surgery-preoperative"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Concensus Statements",
+    "title": "Optimizing Outcomes in Urologic Surgery: Postoperative",
+    "path": "/guidelines-and-quality/quality-and-measurement/quality-improvement/clinical-consensus-statement-and-quality-improvement-issue-brief-(ccs-and-qiib)/optimizing-outcomes-in-urologic-surgery-postoperative"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Concensus Statements",
+    "title": "Joy in Work: Burnout as a Threat to Quality in Urologic Care",
+    "path": "/guidelines-and-quality/quality-and-measurement/quality-improvement/clinical-consensus-statement-and-quality-improvement-issue-brief-(ccs-and-qiib)/joy-in-work-burnout-as-a-threat-to-quality-in-urologic-care"
+  },
+  {
+    "bucket": "Practice Resources",
+    "term": "Quality Imrpovement",
+    "title": "Quality Improvement Activities Toolkit",
+    "path": "/guidelines-and-quality/quality-and-measurement/quality-improvement/macra-and-quality-payment-program/quality-payment-program-improvement-activities"
+  },
+  {
+    "bucket": "Practice Resources",
+    "term": "Quality Imrpovement",
+    "title": "2025 Traditional Merit-based Incentive Payment System (MIPS) Toolkit",
+    "path": "/guidelines-and-quality/quality-and-measurement/measurement/2025-mips-toolkit"
+  },
+  {
+    "bucket": "Practice Resources",
+    "term": "Quality Imrpovement",
+    "title": "2025 Merit-based Incentive Payment System (MIPS) Value Pathways (MVP) Toolkit",
+    "path": "/guidelines-and-quality/quality-and-measurement/measurement/2025-mvp-toolkit"
+  },
+  {
+    "bucket": "Career Growth",
+    "term": "Leadership Program",
+    "title": "Meet the 2025-2026 Leadership Class",
+    "path": "/leadership-and-business/institute-for-leadership-and-business/aua-leadership-program/leadership-classes/2025-2026-leadership-class"
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "term": "Patient Resources",
+    "title": "Coalition for Urologic Patients Members",
+    "path": "/advocacy/patient-advocacy/coalition-for-urologic-patients/coalition-for-urologic-patients-members"
+  },
+  {
+    "bucket": "Advocacy",
+    "term": "Federal",
+    "title": "Medicare Hospital Outpatient Prospective Payment System CY 2027 Proposed Rule Summary",
+    "path": "/advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues/medicare-hospital-outpatient-prospective-payment-system-cy-2027-proposed-rule-summary"
+  },
+  {
+    "bucket": "Advocacy",
+    "term": "Federal",
+    "title": "Final Rule: CY 2026 Medicare Physician Fee Schedule Summary",
+    "path": "/advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues/final-rule-cy-2026-medicare-physician-fee-schedule-summary"
+  },
+  {
+    "bucket": "Advocacy",
+    "term": "Federal",
+    "title": "2026 Medicare Physician Fee Schedule Proposed Rule Summary Including the Medicare Shared Savings Program and Quality Payment Program",
+    "path": "/advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues/deep-dive-summary-of-the-medicare-physician-fee-schedule-(mpfs)-for-cy-2026"
+  },
+  {
+    "bucket": "Advocacy",
+    "term": "Federal",
+    "title": "Final Rule: CY 2025 Medicare Physician Fee Schedule Summary",
+    "path": "/advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues/final-rule-cy-2025-medicare-physician-fee-schedule-summary"
+  },
+  {
+    "bucket": "Advocacy",
+    "term": "Federal",
+    "title": "AUA\u2019s Deep Dive Summary of the Medicare Physician Fee Schedule (MPFS) for CY 2025",
+    "path": "/advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues/auas-deep-dive-summary-of-the-medicare-physician-fee-schedule-(mpfs)-for-cy-2025"
+  },
+  {
+    "bucket": "Advocacy",
+    "term": "Federal",
+    "title": "AUA\u2019s Summary of the Quality Payment Program and Medicare Shared Savings Program for CY 2025",
+    "path": "/advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues/auas-summary-of-the-quality-payment-program-and-medicare-shared-savings-program-for-cy-2025"
+  },
+  {
+    "bucket": "Advocacy",
+    "term": "Federal",
+    "title": "2022 Proposed Medicare Payment Policies Released",
+    "path": "/advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues/2022-proposed-medicare-payment-policies-released"
+  },
+  {
+    "bucket": "Advocacy",
+    "term": "Federal",
+    "title": "Final Rule: CY 2024 Medicare Physician Fee Schedule Summary",
+    "path": "/advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues/final-rule-cy-2024-medicare-physician-fee-schedule-summary"
+  },
+  {
+    "bucket": "Advocacy",
+    "term": "Federal",
+    "title": "AUA\u2019s Deep Dive Summary of the Medicare Physician Fee Schedule (MPFS) for CY 2024",
+    "path": "/advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues/auas-deep-dive-summary-of-the-medicare-physician-fee-schedule-(mpfs)-for-cy-2024"
+  },
+  {
+    "bucket": "Advocacy",
+    "term": "Federal",
+    "title": "CY 2023 Physician Fee Schedule Final Rule Summary",
+    "path": "/advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues/cy-2023-physician-fee-schedule-final-rule-summary"
+  },
+  {
+    "bucket": "Advocacy",
+    "term": "Federal",
+    "title": "2023 Physician Fee Schedule Proposed Rule Summary",
+    "path": "/advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues/2023-physician-fee-schedule-rules"
+  },
+  {
+    "bucket": "Advocacy",
+    "term": "Federal",
+    "title": "Centers for Medicare and Medicaid Services Final Rule Released for 2022 Medicare Physician Fee Schedule",
+    "path": "/advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues/final-rule-released-for-2022-mpfs"
+  },
+  {
+    "bucket": "Advocacy",
+    "term": "Federal",
+    "title": "CMS Releases Final Rule for 2016 Medicare Physician Fee Schedule",
+    "path": "/advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues/cms-releases-final-rule-for-2016-medicare-physician-fee-schedule"
+  },
+  {
+    "bucket": "Advocacy",
+    "term": "Federal",
+    "title": "CMS Releases Proposed Rule for the 2017 Physician Fee Schedule",
+    "path": "/advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues/cms-releases-proposed-rule-for-the-2017-physician-fee-schedule"
+  },
+  {
+    "bucket": "Membership",
+    "term": "Councils, Committees, & Workgroups",
+    "title": "Current Class of Volunteers",
+    "path": "/about-us/aua-governance/committees/volunteer-committees"
+  },
+  {
+    "bucket": "About Us",
+    "term": "Governance",
+    "title": "Terms and Conditions of Use, American Urological Association websites",
+    "path": "/about-us/aua-governance/terms-and-conditions-of-use"
+  },
+  {
+    "bucket": "About Us",
+    "term": "Governance",
+    "title": "Privacy Policy",
+    "path": "/about-us/aua-governance/privacy-policy"
+  },
+  {
+    "bucket": "About Us",
+    "term": "Leadership",
+    "title": "Board of Directors",
+    "path": "/about-us/leadership/board-of-directors"
+  },
+  {
+    "bucket": "Advocacy",
+    "term": "Policy Statements",
+    "title": "Disclosure of Conflicts of Interest",
+    "path": "/about-us/aua-statements/disclosure-of-conflicts-of-interest"
+  },
+  {
+    "bucket": "Advocacy",
+    "term": "Policy Statements",
+    "title": "Intravesical Administration of Therapeutic Medication for the Treatment of Bladder Cancer",
+    "path": "/about-us/aua-statements/intravesical-administration-of-therapeutic-medication"
+  },
+  {
+    "bucket": "About Us",
+    "term": "Industry Relations",
+    "title": "Standard Operating Procedures for Industry Relations",
+    "path": "/about-us/industry-support-opportunities-770b92c6975fab472093d6a52e40af02/aua-industry-relations-policy-updates/standard-operating-procedures-for-industry-relations"
+  }
+]

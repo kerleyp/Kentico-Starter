@@ -1,0 +1,15 @@
+[
+  {
+    "contentItemName": "AuaHomePage",
+    "displayName": "AUA Home",
+    "urlSlug": "home",
+    "title": "American Urological Association",
+    "headline": "American Urological Association",
+    "metaDescription": "Browse AUA content by topic.",
+    "metaKeywords": "",
+    "body": "<p>Welcome to the American Urological Association. Choose a topic below to browse related content.</p>\n<ul>\n<li><a href=\"/section-news\">News</a> (130 pages)</li>\n<li><a href=\"/section-advocacy\">Advocacy</a> (129 pages)</li>\n<li><a href=\"/section-practice-resources\">Practice Resources</a> (90 pages)</li>\n<li><a href=\"/section-career-growth\">Career Growth</a> (84 pages)</li>\n<li><a href=\"/section-membership\">Membership</a> (74 pages)</li>\n<li><a href=\"/section-education\">Education</a> (43 pages)</li>\n<li><a href=\"/section-clinical-guidance\">Clinical Guidance</a> (25 pages)</li>\n<li><a href=\"/section-about-us\">About Us</a> (24 pages)</li>\n<li><a href=\"/section-research\">Research</a> (15 pages)</li>\n</ul>",
+    "needsManualContentReview": false,
+    "siteSectionTagGuid": null,
+    "contentItemGuid": ""
+  }
+]

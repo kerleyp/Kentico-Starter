@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.channel>
+  <ChannelDisplayName>AUA Website</ChannelDisplayName>
+  <ChannelGUID>0f4ef1cd-af31-4dae-8121-0ba026ba5e7b</ChannelGUID>
+  <ChannelName>AUAWebsite</ChannelName>
+  <ChannelSize>Standard</ChannelSize>
+  <ChannelType>Website</ChannelType>
+</cms.channel>

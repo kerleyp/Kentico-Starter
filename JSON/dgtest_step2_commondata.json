@@ -1,0 +1,10 @@
+[
+  {
+    "$type": "ContentItemCommonData",
+    "contentItemCommonDataGUID": "aaaa2222-accb-50d3-8343-5fd478c02dd3",
+    "contentItemCommonDataContentItemGuid": "aaaa1111-0b97-5553-80a6-741d8f45def4",
+    "contentItemCommonDataContentLanguageGuid": "E4A8FB12-EBC2-45D0-930F-C9FBA2780C85",
+    "contentItemCommonDataVersionStatus": 2,
+    "contentItemCommonDataIsLatest": true
+  }
+]

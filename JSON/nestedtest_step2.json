@@ -1,0 +1,11 @@
+[
+  {
+    "$type": "ContentItemCommonData",
+    "contentItemCommonDataGUID": "54a4a772-5db9-5b68-8c90-2357e2000c66",
+    "contentItemCommonDataContentItemGuid": "bb0da265-e69c-57e5-87a3-21bb0b7a8323",
+    "contentItemCommonDataContentLanguageGuid": "E4A8FB12-EBC2-45D0-930F-C9FBA2780C85",
+    "contentItemCommonDataVersionStatus": 2,
+    "contentItemCommonDataIsLatest": true,
+    "contentItemCommonDataVisualBuilderTemplateConfiguration": "{\"identifier\":\"AUA.StandardContentPage.Default\"}"
+  }
+]

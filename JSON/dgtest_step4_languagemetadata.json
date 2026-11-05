@@ -1,0 +1,12 @@
+[
+  {
+    "$type": "ContentItemLanguageMetadata",
+    "contentItemLanguageMetadataGUID": "aaaa4444-5ced-526e-aef9-0069171277d0",
+    "contentItemLanguageMetadataContentItemGuid": "aaaa1111-0b97-5553-80a6-741d8f45def4",
+    "contentItemLanguageMetadataDisplayName": "Why Urology? (DG test)",
+    "contentItemLanguageMetadataLatestVersionStatus": 2,
+    "contentItemLanguageMetadataCreatedWhen": "2026-07-30T12:05:00.277310+00:00",
+    "contentItemLanguageMetadataHasImageAsset": false,
+    "contentItemLanguageMetadataContentLanguageGuid": "E4A8FB12-EBC2-45D0-930F-C9FBA2780C85"
+  }
+]

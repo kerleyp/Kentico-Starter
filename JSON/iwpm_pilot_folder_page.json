@@ -1,0 +1,15 @@
+[
+  {
+    "contentItemName": "AboutUsFolderPage",
+    "displayName": "About Us",
+    "urlSlug": "about-us",
+    "title": "About Us",
+    "headline": "About Us",
+    "metaDescription": "About the American Urological Association.",
+    "metaKeywords": "",
+    "body": "<p>Section placeholder page -- serves as a routable parent folder for pages under About Us.</p>",
+    "needsManualContentReview": false,
+    "siteSectionTagGuid": null,
+    "contentItemGuid": ""
+  }
+]

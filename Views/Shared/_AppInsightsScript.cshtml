@@ -1,0 +1,11 @@
+@using Microsoft.Extensions.DependencyInjection
+@using Microsoft.ApplicationInsights.AspNetCore
+@{
+    var aiSnippet = Context.RequestServices.GetService<JavaScriptSnippet>();
+}
+@if (aiSnippet != null)
+{
+    @Html.Raw(aiSnippet.FullScript)
+}
+
+

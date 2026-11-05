@@ -1,0 +1,69 @@
+@using System
+@using AUA
+@using AUA.Helpers
+@using CMS.ContentEngine
+
+@inject IContentQueryExecutor ContentQueryExecutor
+
+@{
+    bool isAuthenticated = MemberAuthHelper.IsAuthenticated(Context);
+    bool isAuaMember = MemberAuthHelper.IsAuaMember(Context);
+    string userEmail = MemberAuthHelper.GetEmail(Context);
+    string currentPath = Context.Request.Path.Value ?? "/home";
+}
+
+@{
+    // AUA.SiteFooter now exists (created + code regenerated + one item
+    // published), so restored to the real CMS-driven query -- was
+    // temporarily on a static fallback while that content type didn't
+    // exist yet.
+    //
+    // Only one channel exists today, so this just takes the first item of
+    // the type -- no need to filter by which item belongs to which channel
+    // yet. If a second channel gets added, add a plain text "ChannelCodeName"
+    // field to AUA.SiteFooter itself and filter on that, rather than relying
+    // on the content item's own system name/codename.
+    var queryBuilder = new ContentItemQueryBuilder()
+        .ForContentType(SiteFooter.CONTENT_TYPE_NAME, config => config
+            .TopN(1));
+
+    var footers = await ContentQueryExecutor.GetMappedResult<SiteFooter>(queryBuilder);
+    var footer = footers?.FirstOrDefault();
+}
+
+<footer class="bg-white border-top py-4 mt-5">
+    <div class="container text-muted small">
+        @if (footer != null)
+        {
+            @Html.Raw(footer.Body)
+            <div class="mt-2">@footer.CopyrightText</div>
+        }
+        else
+        {
+            <span>American Urological Association</span>
+        }
+
+        @* Real sign-in state, via ExternalAuthController (Google/Facebook).
+           Deliberately kept outside the CMS-driven content above so it
+           doesn't require editing the footer content item. *@
+        <div class="mt-2">
+            @if (isAuthenticated)
+            {
+                @if (isAuaMember)
+                {
+                    <span class="badge bg-success">AUA member</span>
+                }
+                else
+                {
+                    <span class="badge bg-secondary">No active AUA membership found</span>
+                }
+                <span class="ms-2">Signed in as @userEmail</span>
+                <a href="/external-auth/logout?returnUrl=@Uri.EscapeDataString(currentPath)" class="ms-2">Sign out</a>
+            }
+            else
+            {
+                <partial name="~/Views/Shared/_ExternalLoginButtons.cshtml" model="@currentPath" />
+            }
+        </div>
+    </div>
+</footer>

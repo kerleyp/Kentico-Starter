@@ -1,0 +1,12 @@
+@"
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+.env
+appsettings.Development.json
+*.bak
+"@ | Out-File -FilePath .gitignore -Encoding utf8
+
+*.exe

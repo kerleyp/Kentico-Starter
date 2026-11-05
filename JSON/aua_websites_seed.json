@@ -1,0 +1,41 @@
+{
+  "menuTitle": "AUA Websites",
+  "items": [
+    {
+      "label": "AUA Journals",
+      "linkUrl": "https://www.auajournals.org/",
+      "order": 0,
+      "description": "Peer-reviewed urology research — The Journal of Urology® and more."
+    },
+    {
+      "label": "AUAUniversity",
+      "linkUrl": "https://cme.auanet.org/",
+      "order": 1,
+      "description": "Online learning, CME, and self-assessment programs."
+    },
+    {
+      "label": "Annual Meeting",
+      "linkUrl": "https://www.auanet.org/AUA2026",
+      "order": 2,
+      "description": "The AUA's flagship scientific meeting experience."
+    },
+    {
+      "label": "Didusch Museum",
+      "linkUrl": "https://www.urologichistory.museum/",
+      "order": 3,
+      "description": "The William P. Didusch Center for Urologic History."
+    },
+    {
+      "label": "AUA Innovation Nexus",
+      "linkUrl": "https://www.auanexus.org/",
+      "order": 4,
+      "description": "Entrepreneurship and innovation in urology."
+    },
+    {
+      "label": "Urology Care Foundation",
+      "linkUrl": "https://www.urologyhealth.org/",
+      "order": 5,
+      "description": "Patient education and the official AUA foundation."
+    }
+  ]
+}

@@ -1,0 +1,760 @@
+[
+  {
+    "$type": "Taxonomy",
+    "taxonomyName": "AUA.SiteSection",
+    "taxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "taxonomyTitle": "Site Section",
+    "taxonomyDescription": "Primary IA bucket + term for AUA website content"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "ClinicalGuidance",
+    "tagGUID": "9dfa7044-06ba-5138-a9b0-728442fa9179",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 1,
+    "tagTitle": "Clinical Guidance"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "OVERALL",
+    "tagGUID": "df6cc7c2-cf2f-587d-bcea-1cb602358a37",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 1,
+    "tagTitle": "OVERALL",
+    "tagParentGUID": "9dfa7044-06ba-5138-a9b0-728442fa9179"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Guidelines",
+    "tagGUID": "63a66133-5387-5380-945f-67e934e63ed0",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 2,
+    "tagTitle": "Guidelines",
+    "tagParentGUID": "9dfa7044-06ba-5138-a9b0-728442fa9179"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "ConcensusStatements",
+    "tagGUID": "56ebda57-b373-5823-98d5-8ed9e1b412f2",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 3,
+    "tagTitle": "Concensus Statements",
+    "tagParentGUID": "9dfa7044-06ba-5138-a9b0-728442fa9179"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Topics",
+    "tagGUID": "9d15575d-2a4f-5cd5-a9c6-04ede5ef01b9",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 4,
+    "tagTitle": "Topics",
+    "tagParentGUID": "9dfa7044-06ba-5138-a9b0-728442fa9179"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "PatientResources",
+    "tagGUID": "dbf0ac4a-d874-5e90-ba9b-5cf60c4a7676",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 5,
+    "tagTitle": "Patient Resources",
+    "tagParentGUID": "9dfa7044-06ba-5138-a9b0-728442fa9179"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Education",
+    "tagGUID": "312b5d0d-c7f2-595d-b2d7-78274ff745e4",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 2,
+    "tagTitle": "Education"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "OVERALL",
+    "tagGUID": "df6cc7c2-cf2f-587d-bcea-1cb602358a37",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 1,
+    "tagTitle": "OVERALL",
+    "tagParentGUID": "312b5d0d-c7f2-595d-b2d7-78274ff745e4"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "AUAUniversity",
+    "tagGUID": "36781718-1003-5642-a8e0-a1e85cbddd81",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 2,
+    "tagTitle": "AUAUniversity",
+    "tagParentGUID": "312b5d0d-c7f2-595d-b2d7-78274ff745e4"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "AdvancedPracticeProviders",
+    "tagGUID": "34fb8bee-c1f5-5df1-9683-b1e99d3b2ca7",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 3,
+    "tagTitle": "Advanced Practice Providers",
+    "tagParentGUID": "312b5d0d-c7f2-595d-b2d7-78274ff745e4"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "CoursesCME",
+    "tagGUID": "af952bcf-85d5-54d6-a22b-4f37ff9a5bd4",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 4,
+    "tagTitle": "Courses & CME",
+    "tagParentGUID": "312b5d0d-c7f2-595d-b2d7-78274ff745e4"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "EventsCalendar",
+    "tagGUID": "1509105e-820b-5ebd-92aa-6e893d358145",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 5,
+    "tagTitle": "Events Calendar",
+    "tagParentGUID": "312b5d0d-c7f2-595d-b2d7-78274ff745e4"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "MedicalStudents",
+    "tagGUID": "a52be28d-9527-5234-b9ee-b031ba39ce38",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 6,
+    "tagTitle": "Medical Students",
+    "tagParentGUID": "312b5d0d-c7f2-595d-b2d7-78274ff745e4"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Podcasts",
+    "tagGUID": "a98cb23a-b04b-58ff-83a8-20432fbe1a3a",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 7,
+    "tagTitle": "Podcasts",
+    "tagParentGUID": "312b5d0d-c7f2-595d-b2d7-78274ff745e4"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "ResidentsandFellows",
+    "tagGUID": "83ccfb5e-4127-5add-9fc8-fa526da3da09",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 8,
+    "tagTitle": "Residents and Fellows",
+    "tagParentGUID": "312b5d0d-c7f2-595d-b2d7-78274ff745e4"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Research",
+    "tagGUID": "6eaeb77b-dae6-5523-82bd-8e0026768346",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 3,
+    "tagTitle": "Research"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "AUACensus",
+    "tagGUID": "59da94db-6bae-54f1-8d4a-91abe3c9ce11",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 1,
+    "tagTitle": "AUA Census",
+    "tagParentGUID": "6eaeb77b-dae6-5523-82bd-8e0026768346"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "DataStatistics",
+    "tagGUID": "ddc4d776-42c1-5e98-b790-9415906d8770",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 2,
+    "tagTitle": "Data & Statistics",
+    "tagParentGUID": "6eaeb77b-dae6-5523-82bd-8e0026768346"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "ResearchEducation",
+    "tagGUID": "bca9dd97-298c-5a98-85e7-8c88d260c85a",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 3,
+    "tagTitle": "Research Education",
+    "tagParentGUID": "6eaeb77b-dae6-5523-82bd-8e0026768346"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "ResearchFunding",
+    "tagGUID": "a2e8beed-f52a-51dc-8869-332718db7137",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 4,
+    "tagTitle": "Research Funding",
+    "tagParentGUID": "6eaeb77b-dae6-5523-82bd-8e0026768346"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Advocacy",
+    "tagGUID": "a472d6ab-94b5-567c-81ad-cdf7410e2f82",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 4,
+    "tagTitle": "Advocacy"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "AMA",
+    "tagGUID": "71891bb9-431c-5839-9e7a-8448fa7d525c",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 1,
+    "tagTitle": "AMA",
+    "tagParentGUID": "a472d6ab-94b5-567c-81ad-cdf7410e2f82"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "ActionCenter",
+    "tagGUID": "2235b291-3704-569c-8924-059a6f085a1b",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 2,
+    "tagTitle": "Action Center",
+    "tagParentGUID": "a472d6ab-94b5-567c-81ad-cdf7410e2f82"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Federal",
+    "tagGUID": "bb342fd9-57d2-5498-b5c5-673c4a33afce",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 3,
+    "tagTitle": "Federal",
+    "tagParentGUID": "a472d6ab-94b5-567c-81ad-cdf7410e2f82"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "PolicyStatements",
+    "tagGUID": "80761803-92d1-5bd6-b810-0ec53893145d",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 4,
+    "tagTitle": "Policy Statements",
+    "tagParentGUID": "a472d6ab-94b5-567c-81ad-cdf7410e2f82"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "State",
+    "tagGUID": "eb1d2d81-bb59-520d-a643-a4b032a3f698",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 5,
+    "tagTitle": "State",
+    "tagParentGUID": "a472d6ab-94b5-567c-81ad-cdf7410e2f82"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Summit",
+    "tagGUID": "05f6fbba-df8c-5fd5-86ee-ec5c7a1e2eec",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 6,
+    "tagTitle": "Summit",
+    "tagParentGUID": "a472d6ab-94b5-567c-81ad-cdf7410e2f82"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "PracticeResources",
+    "tagGUID": "bdea385d-c740-587c-b174-15dbe2582e27",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 5,
+    "tagTitle": "Practice Resources"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "AQUA",
+    "tagGUID": "2fcdca2d-d322-5eae-ada4-e97e3f76d8d4",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 1,
+    "tagTitle": "AQUA",
+    "tagParentGUID": "bdea385d-c740-587c-b174-15dbe2582e27"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "CodingResourcesEducation",
+    "tagGUID": "a719ebb9-ed67-592c-951f-c46b7f9b5d66",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 2,
+    "tagTitle": "Coding Resources & Education",
+    "tagParentGUID": "bdea385d-c740-587c-b174-15dbe2582e27"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "PracticeManagersNetwork",
+    "tagGUID": "a89ef5c9-cfdc-55b8-8531-60e8b5d0a57c",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 3,
+    "tagTitle": "Practice Managers Network",
+    "tagParentGUID": "bdea385d-c740-587c-b174-15dbe2582e27"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "PracticeSupportlandingpage",
+    "tagGUID": "72cdf97a-1381-5e36-9360-4f19f084bd15",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 4,
+    "tagTitle": "Practice Support (landing page)",
+    "tagParentGUID": "bdea385d-c740-587c-b174-15dbe2582e27"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "QualityImrpovement",
+    "tagGUID": "d610f733-7885-505c-a0ea-c4c8a399e849",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 5,
+    "tagTitle": "Quality Imrpovement",
+    "tagParentGUID": "bdea385d-c740-587c-b174-15dbe2582e27"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "CareerGrowth",
+    "tagGUID": "6e552a1b-37e1-5f73-9a8b-7fc02881cb8e",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 6,
+    "tagTitle": "Career Growth"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "GrantsandFellowships",
+    "tagGUID": "981fc993-ea11-5043-acb2-506188629ce9",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 1,
+    "tagTitle": "Grants and Fellowships",
+    "tagParentGUID": "6e552a1b-37e1-5f73-9a8b-7fc02881cb8e"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "LeadershipProgram",
+    "tagGUID": "e46fba9e-0419-59c0-902f-3e98b30492ed",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 2,
+    "tagTitle": "Leadership Program",
+    "tagParentGUID": "6e552a1b-37e1-5f73-9a8b-7fc02881cb8e"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "MasterclassinExecutiveLeadership",
+    "tagGUID": "bf8268a1-3de5-5a24-b249-a4149205eb89",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 3,
+    "tagTitle": "Masterclass in Executive Leadership",
+    "tagParentGUID": "6e552a1b-37e1-5f73-9a8b-7fc02881cb8e"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Mentorship",
+    "tagGUID": "2e830f6a-f289-57a2-a559-758dbaaf87dd",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 4,
+    "tagTitle": "Mentorship",
+    "tagParentGUID": "6e552a1b-37e1-5f73-9a8b-7fc02881cb8e"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Resources",
+    "tagGUID": "c0c31010-96ee-558e-a392-53fff8ee1f0c",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 5,
+    "tagTitle": "Resources",
+    "tagParentGUID": "6e552a1b-37e1-5f73-9a8b-7fc02881cb8e"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "News",
+    "tagGUID": "fef567e4-fbdc-548c-af51-e418a88ecb48",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 7,
+    "tagTitle": "News"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Archive",
+    "tagGUID": "c27d33d3-9b60-56b4-a93a-1da4984250d1",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 1,
+    "tagTitle": "Archive",
+    "tagParentGUID": "fef567e4-fbdc-548c-af51-e418a88ecb48"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Latest",
+    "tagGUID": "5d326184-cd8e-53d8-9cb6-71d0adf4b29f",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 2,
+    "tagTitle": "Latest",
+    "tagParentGUID": "fef567e4-fbdc-548c-af51-e418a88ecb48"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "PodcastsandWebinars",
+    "tagGUID": "9ce44ca1-010c-50c3-8d8b-c5fd5777017c",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 3,
+    "tagTitle": "Podcasts and Webinars",
+    "tagParentGUID": "fef567e4-fbdc-548c-af51-e418a88ecb48"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "ResourceCenter",
+    "tagGUID": "a675816f-4f43-52b4-ba65-ae315ef1340c",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 4,
+    "tagTitle": "Resource Center",
+    "tagParentGUID": "fef567e4-fbdc-548c-af51-e418a88ecb48"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "SeriesandColumns",
+    "tagGUID": "1f9440bb-6c1b-5f66-a86c-caf9755c94a4",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 5,
+    "tagTitle": "Series and Columns",
+    "tagParentGUID": "fef567e4-fbdc-548c-af51-e418a88ecb48"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Membership",
+    "tagGUID": "5099f4be-3aa8-5fe3-84f7-f511e59fc791",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 8,
+    "tagTitle": "Membership"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Whoweare",
+    "tagGUID": "1cb10665-0e9d-5381-95a0-d31164d27cff",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 1,
+    "tagTitle": "Who we are",
+    "tagParentGUID": "5099f4be-3aa8-5fe3-84f7-f511e59fc791"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "CouncilsCommitteesWorkgroups",
+    "tagGUID": "13785b31-768e-5312-aa32-28831a80a4f4",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 2,
+    "tagTitle": "Councils, Committees, & Workgroups",
+    "tagParentGUID": "5099f4be-3aa8-5fe3-84f7-f511e59fc791"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "JoinRenew",
+    "tagGUID": "dcf7a2c0-8cc7-5ae1-8e96-39940cbfdc63",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 3,
+    "tagTitle": "Join / Renew",
+    "tagParentGUID": "5099f4be-3aa8-5fe3-84f7-f511e59fc791"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "MemberCategories",
+    "tagGUID": "e77c1bf9-fb70-53d0-b4e5-70a85c0b7605",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 4,
+    "tagTitle": "Member Categories",
+    "tagParentGUID": "5099f4be-3aa8-5fe3-84f7-f511e59fc791"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "ProgramsResources",
+    "tagGUID": "a6e18a8d-d156-5d96-808e-03cfb0b3127a",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 5,
+    "tagTitle": "Programs & Resources",
+    "tagParentGUID": "5099f4be-3aa8-5fe3-84f7-f511e59fc791"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "VolunteerOpportunities",
+    "tagGUID": "b18e8069-028d-5a89-8d33-626d1907eb45",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 6,
+    "tagTitle": "Volunteer Opportunities",
+    "tagParentGUID": "5099f4be-3aa8-5fe3-84f7-f511e59fc791"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "AboutUs",
+    "tagGUID": "537284ee-7945-50ab-bceb-b9e1ba888836",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 9,
+    "tagTitle": "About Us"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "WhoWeAreAboutUs",
+    "tagGUID": "f59bd555-4a16-5a9b-8c62-8adfbdb66ad6",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 1,
+    "tagTitle": "Who We Are",
+    "tagParentGUID": "537284ee-7945-50ab-bceb-b9e1ba888836"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Leadership",
+    "tagGUID": "065d3375-7242-5b83-901f-84574d419c31",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 2,
+    "tagTitle": "Leadership",
+    "tagParentGUID": "537284ee-7945-50ab-bceb-b9e1ba888836"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Governance",
+    "tagGUID": "40b2c8b7-5855-5558-bc48-cc6778f9a40c",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 3,
+    "tagTitle": "Governance",
+    "tagParentGUID": "537284ee-7945-50ab-bceb-b9e1ba888836"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "IndustryRelations",
+    "tagGUID": "e12501c3-b7c1-50d1-9431-5521f15a36b1",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 4,
+    "tagTitle": "Industry Relations",
+    "tagParentGUID": "537284ee-7945-50ab-bceb-b9e1ba888836"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "EthicsExpertWitness",
+    "tagGUID": "ef89467f-9960-53ff-a7b6-e64b753fe114",
+    "tagTaxonomyGUID": "57a610e0-2701-54a4-88fa-bb30b1690bb5",
+    "tagOrder": 5,
+    "tagTitle": "Ethics & Expert Witness",
+    "tagParentGUID": "537284ee-7945-50ab-bceb-b9e1ba888836"
+  },
+  {
+    "$type": "Taxonomy",
+    "taxonomyName": "AUA.ClinicalDomain",
+    "taxonomyGUID": "f6bc8060-e679-5ffb-9b93-fe6c855df8e6",
+    "taxonomyTitle": "Clinical Domain",
+    "taxonomyDescription": "Clinical subspecialty domain for guideline/consensus content"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "UpperTractReconstruction",
+    "tagGUID": "c478923c-22fb-5b2d-8b52-f59f9bca6c6f",
+    "tagTaxonomyGUID": "f6bc8060-e679-5ffb-9b93-fe6c855df8e6",
+    "tagOrder": 1,
+    "tagTitle": "Upper Tract Reconstruction"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "LowerTractReconstruction",
+    "tagGUID": "cccb19a4-c81f-5a69-aae3-0a2c89bed072",
+    "tagTaxonomyGUID": "f6bc8060-e679-5ffb-9b93-fe6c855df8e6",
+    "tagOrder": 2,
+    "tagTitle": "Lower Tract Reconstruction"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "UrolithiasisEndourology",
+    "tagGUID": "e33a73cd-bd77-5a29-af36-bca154eeee0c",
+    "tagTaxonomyGUID": "f6bc8060-e679-5ffb-9b93-fe6c855df8e6",
+    "tagOrder": 3,
+    "tagTitle": "Urolithiasis/Endourology"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "FemaleVoidingDysfunctionPelvicFloor",
+    "tagGUID": "0b941b21-4d0a-5cc1-9848-63db06e64730",
+    "tagTaxonomyGUID": "f6bc8060-e679-5ffb-9b93-fe6c855df8e6",
+    "tagOrder": 4,
+    "tagTitle": "Female Voiding Dysfunction & Pelvic Floor"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "BPHMaleVoidingDysfunction",
+    "tagGUID": "f8d3e631-cc11-505b-b0dc-10d60a09ca6f",
+    "tagTaxonomyGUID": "f6bc8060-e679-5ffb-9b93-fe6c855df8e6",
+    "tagOrder": 5,
+    "tagTitle": "BPH & Male Voiding Dysfunction"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "SexualDysfunctionInfertilityAndrology",
+    "tagGUID": "84cc68ba-9e02-5594-9c97-95b1b38721b3",
+    "tagTaxonomyGUID": "f6bc8060-e679-5ffb-9b93-fe6c855df8e6",
+    "tagOrder": 6,
+    "tagTitle": "Sexual Dysfunction/Infertility/Andrology"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "RenalAdrenalOncology",
+    "tagGUID": "90c66ce2-1c1e-5f6e-8eb6-44d253a9345f",
+    "tagTaxonomyGUID": "f6bc8060-e679-5ffb-9b93-fe6c855df8e6",
+    "tagOrder": 7,
+    "tagTitle": "Renal & Adrenal Oncology"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "ProstateOncology",
+    "tagGUID": "c262d5c8-4dcc-53c9-bea4-db337cc35a07",
+    "tagTaxonomyGUID": "f6bc8060-e679-5ffb-9b93-fe6c855df8e6",
+    "tagOrder": 8,
+    "tagTitle": "Prostate Oncology"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "PenileTestisOncology",
+    "tagGUID": "de38207a-5fea-5aad-9df5-08383067301a",
+    "tagTaxonomyGUID": "f6bc8060-e679-5ffb-9b93-fe6c855df8e6",
+    "tagOrder": 9,
+    "tagTitle": "Penile & Testis Oncology"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "BladderUrothelialOncology",
+    "tagGUID": "27bbe565-99ce-54ee-9be4-b61807630a8b",
+    "tagTaxonomyGUID": "f6bc8060-e679-5ffb-9b93-fe6c855df8e6",
+    "tagOrder": 10,
+    "tagTitle": "Bladder & Urothelial Oncology"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Pediatrics",
+    "tagGUID": "a24832f7-b146-5491-8d89-42108d107bac",
+    "tagTaxonomyGUID": "f6bc8060-e679-5ffb-9b93-fe6c855df8e6",
+    "tagOrder": 11,
+    "tagTitle": "Pediatrics"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "TransplantRenovascularMiscBenign",
+    "tagGUID": "c24e153f-12ea-5171-b345-99ed05ca09c1",
+    "tagTaxonomyGUID": "f6bc8060-e679-5ffb-9b93-fe6c855df8e6",
+    "tagOrder": 12,
+    "tagTitle": "Transplant/Renovascular/Misc. Benign"
+  },
+  {
+    "$type": "Taxonomy",
+    "taxonomyName": "AUA.SurgicalApproach",
+    "taxonomyGUID": "004056c8-de94-5380-aec0-c9d15e684d99",
+    "taxonomyTitle": "Surgical Approach",
+    "taxonomyDescription": "Surgical/procedural approach for guideline content"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Robotic",
+    "tagGUID": "6fb2b40e-c2d3-5ea9-9fbe-90b4c7fde66c",
+    "tagTaxonomyGUID": "004056c8-de94-5380-aec0-c9d15e684d99",
+    "tagOrder": 1,
+    "tagTitle": "Robotic"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "SinglePort",
+    "tagGUID": "5cd08353-5a1e-5d25-b8c3-0a592b704244",
+    "tagTaxonomyGUID": "004056c8-de94-5380-aec0-c9d15e684d99",
+    "tagOrder": 2,
+    "tagTitle": "Single-Port"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Laparoscopic",
+    "tagGUID": "a36edaf3-c0de-5b69-87c4-efe301c80c84",
+    "tagTaxonomyGUID": "004056c8-de94-5380-aec0-c9d15e684d99",
+    "tagOrder": 3,
+    "tagTitle": "Laparoscopic"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "MinimallyInvasive",
+    "tagGUID": "7c4535fa-e450-5603-87be-b7d59338d9f4",
+    "tagTaxonomyGUID": "004056c8-de94-5380-aec0-c9d15e684d99",
+    "tagOrder": 4,
+    "tagTitle": "Minimally Invasive"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Endoscopic",
+    "tagGUID": "37596a58-27c4-5a94-92a1-8328267d4058",
+    "tagTaxonomyGUID": "004056c8-de94-5380-aec0-c9d15e684d99",
+    "tagOrder": 5,
+    "tagTitle": "Endoscopic"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Percutaneous",
+    "tagGUID": "b3d2037a-7eb0-527e-a066-9164934c044a",
+    "tagTaxonomyGUID": "004056c8-de94-5380-aec0-c9d15e684d99",
+    "tagOrder": 6,
+    "tagTitle": "Percutaneous"
+  },
+  {
+    "$type": "Taxonomy",
+    "taxonomyName": "AUA.AnatomicSite",
+    "taxonomyGUID": "3665a3eb-2b74-5ef2-a5dc-8c6b36f58038",
+    "taxonomyTitle": "Anatomic Site",
+    "taxonomyDescription": "Anatomic site for guideline content"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "KidneyRenal",
+    "tagGUID": "5af9b523-a44d-5076-b40d-f50a4eac0f98",
+    "tagTaxonomyGUID": "3665a3eb-2b74-5ef2-a5dc-8c6b36f58038",
+    "tagOrder": 1,
+    "tagTitle": "Kidney/Renal"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Ureter",
+    "tagGUID": "f386391a-3509-55a7-859c-05b7ed8bcf1e",
+    "tagTaxonomyGUID": "3665a3eb-2b74-5ef2-a5dc-8c6b36f58038",
+    "tagOrder": 2,
+    "tagTitle": "Ureter"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Bladder",
+    "tagGUID": "42ea59a1-c4d1-559f-b319-2742c5959c77",
+    "tagTaxonomyGUID": "3665a3eb-2b74-5ef2-a5dc-8c6b36f58038",
+    "tagOrder": 3,
+    "tagTitle": "Bladder"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Prostate",
+    "tagGUID": "191d0bba-900a-52f5-af74-da4c1dafe7a8",
+    "tagTaxonomyGUID": "3665a3eb-2b74-5ef2-a5dc-8c6b36f58038",
+    "tagOrder": 4,
+    "tagTitle": "Prostate"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Urethra",
+    "tagGUID": "39a4f4dc-ed2f-52dc-84cd-807a31b11996",
+    "tagTaxonomyGUID": "3665a3eb-2b74-5ef2-a5dc-8c6b36f58038",
+    "tagOrder": 5,
+    "tagTitle": "Urethra"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Penile",
+    "tagGUID": "3f8a77c0-1bc4-573f-b33f-2939b15a610e",
+    "tagTaxonomyGUID": "3665a3eb-2b74-5ef2-a5dc-8c6b36f58038",
+    "tagOrder": 6,
+    "tagTitle": "Penile"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "TestisScrotum",
+    "tagGUID": "68b6cabe-9a97-53fb-9a17-f3462b01debb",
+    "tagTaxonomyGUID": "3665a3eb-2b74-5ef2-a5dc-8c6b36f58038",
+    "tagOrder": 7,
+    "tagTitle": "Testis/Scrotum"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "PelvicFloor",
+    "tagGUID": "cd162920-464e-5bba-9d1e-45bc41004cfc",
+    "tagTaxonomyGUID": "3665a3eb-2b74-5ef2-a5dc-8c6b36f58038",
+    "tagOrder": 8,
+    "tagTitle": "Pelvic Floor"
+  },
+  {
+    "$type": "Tag",
+    "tagName": "Adrenal",
+    "tagGUID": "4db48a70-6c9f-58b0-9538-3cb4eac8b8da",
+    "tagTaxonomyGUID": "3665a3eb-2b74-5ef2-a5dc-8c6b36f58038",
+    "tagOrder": 9,
+    "tagTitle": "Adrenal"
+  }
+]
+

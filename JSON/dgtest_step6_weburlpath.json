@@ -1,0 +1,14 @@
+[
+  {
+    "$type": "WebPageUrlPath",
+    "webPageUrlPathGUID": "aaaa6666-4d5e-4f60-8a71-9c1d2e3f4a5b",
+    "webPageUrlPath": "/why-urology-dgtest",
+    "webPageUrlPathWebPageItemGuid": "aaaa5555-7b8e-581d-8923-83e642c8e45f",
+    "webPageUrlPathWebsiteChannelGuid": "55E3AE4B-3843-46B8-95D5-79611C371D6F",
+    "webPageUrlPathContentLanguageGuid": "E4A8FB12-EBC2-45D0-930F-C9FBA2780C85",
+    "webPageUrlPathIsLatest": true,
+    "webPageUrlPathIsDraft": false,
+    "webPageUrlPathIsCanonical": true,
+    "webPageUrlPathType": 0
+  }
+]

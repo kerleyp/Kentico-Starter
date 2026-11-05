@@ -1,0 +1,627 @@
+[
+  {
+    "path": "about-us",
+    "displayName": "About Us",
+    "parentPath": null
+  },
+  {
+    "path": "advocacy",
+    "displayName": "Advocacy",
+    "parentPath": null
+  },
+  {
+    "path": "guidelines-and-quality",
+    "displayName": "Guidelines & Quality",
+    "parentPath": null
+  },
+  {
+    "path": "leadership-and-business",
+    "displayName": "Leadership & Business",
+    "parentPath": null
+  },
+  {
+    "path": "meetings-and-education",
+    "displayName": "Meetings & Education",
+    "parentPath": null
+  },
+  {
+    "path": "membership",
+    "displayName": "Membership",
+    "parentPath": null
+  },
+  {
+    "path": "research-and-data",
+    "displayName": "Research & Data",
+    "parentPath": null
+  },
+  {
+    "path": "about-us/aua-ethics",
+    "displayName": "AUA Ethics",
+    "parentPath": "about-us"
+  },
+  {
+    "path": "about-us/aua-governance",
+    "displayName": "AUA Governance",
+    "parentPath": "about-us"
+  },
+  {
+    "path": "about-us/aua-overview",
+    "displayName": "AUA Overview",
+    "parentPath": "about-us"
+  },
+  {
+    "path": "about-us/aua-statements",
+    "displayName": "AUA Statements",
+    "parentPath": "about-us"
+  },
+  {
+    "path": "about-us/industry-support-opportunities",
+    "displayName": "Industry Support Opportunities",
+    "parentPath": "about-us"
+  },
+  {
+    "path": "about-us/leadership",
+    "displayName": "Leadership",
+    "parentPath": "about-us"
+  },
+  {
+    "path": "about-us/media-center",
+    "displayName": "Media Center",
+    "parentPath": "about-us"
+  },
+  {
+    "path": "about-us/policy-and-position-statements",
+    "displayName": "AUA Statements",
+    "parentPath": "about-us"
+  },
+  {
+    "path": "advocacy/advocacy-101",
+    "displayName": "Advocacy 101",
+    "parentPath": "advocacy"
+  },
+  {
+    "path": "advocacy/federal-advocacy",
+    "displayName": "Federal Advocacy",
+    "parentPath": "advocacy"
+  },
+  {
+    "path": "advocacy/get-involved",
+    "displayName": "Get Involved",
+    "parentPath": "advocacy"
+  },
+  {
+    "path": "advocacy/patient-advocacy",
+    "displayName": "Patient Advocacy",
+    "parentPath": "advocacy"
+  },
+  {
+    "path": "guidelines-and-quality/2026-science-and-quality-summit",
+    "displayName": "2026 Science & Quality Summit",
+    "parentPath": "guidelines-and-quality"
+  },
+  {
+    "path": "guidelines-and-quality/guidelines",
+    "displayName": "Guidelines",
+    "parentPath": "guidelines-and-quality"
+  },
+  {
+    "path": "guidelines-and-quality/quality-and-measurement",
+    "displayName": "Quality and Measurement",
+    "parentPath": "guidelines-and-quality"
+  },
+  {
+    "path": "leadership-and-business/institute-for-leadership-and-business",
+    "displayName": "Institute for Leadership & Business",
+    "parentPath": "leadership-and-business"
+  },
+  {
+    "path": "meetings-and-education/aua",
+    "displayName": "Aua",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "path": "meetings-and-education/auas-digital-transformation",
+    "displayName": "AUAs Digital Transformation",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "path": "meetings-and-education/course-planning-disclosures-and-cme",
+    "displayName": "Course Planning, Disclosures and CME",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "path": "meetings-and-education/educational-programs",
+    "displayName": "Educational Programs",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "path": "meetings-and-education/exams",
+    "displayName": "Exams",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "path": "meetings-and-education/for-app",
+    "displayName": "For App",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "path": "meetings-and-education/for-medical-students",
+    "displayName": "For Medical Students",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "path": "meetings-and-education/for-residents",
+    "displayName": "For Residents",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "path": "meetings-and-education/global-academic-exchanges",
+    "displayName": "Global Academic Exchanges",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "path": "meetings-and-education/practice-resource-library",
+    "displayName": "Practice Resource Library",
+    "parentPath": "meetings-and-education"
+  },
+  {
+    "path": "membership/advancing-urology-globally",
+    "displayName": "Member Benefits & Programs",
+    "parentPath": "membership"
+  },
+  {
+    "path": "membership/member-benefits-and-programs",
+    "displayName": "Member Benefits & Programs",
+    "parentPath": "membership"
+  },
+  {
+    "path": "membership/member-central",
+    "displayName": "Member Central",
+    "parentPath": "membership"
+  },
+  {
+    "path": "membership/memberperks",
+    "displayName": "MemberPerks",
+    "parentPath": "membership"
+  },
+  {
+    "path": "membership/membership-committees",
+    "displayName": "Membership Committees",
+    "parentPath": "membership"
+  },
+  {
+    "path": "membership/membership-dues-faqs",
+    "displayName": "Membership Dues FAQs",
+    "parentPath": "membership"
+  },
+  {
+    "path": "membership/mentorship-opportunities",
+    "displayName": "Mentorship Opportunities",
+    "parentPath": "membership"
+  },
+  {
+    "path": "membership/publications-and-podcasts",
+    "displayName": "Publications and Podcasts",
+    "parentPath": "membership"
+  },
+  {
+    "path": "membership/volunteer-opportunities",
+    "displayName": "Volunteer Opportunities",
+    "parentPath": "membership"
+  },
+  {
+    "path": "membership/who-we-are",
+    "displayName": "Who We Are",
+    "parentPath": "membership"
+  },
+  {
+    "path": "research-and-data/aua-census",
+    "displayName": "AUA Census",
+    "parentPath": "research-and-data"
+  },
+  {
+    "path": "research-and-data/aua-quality-(aqua)-registry",
+    "displayName": "AUA Quality (AQUA) Registry",
+    "parentPath": "research-and-data"
+  },
+  {
+    "path": "research-and-data/data-and-statistical-services",
+    "displayName": "Data and Statistical Services",
+    "parentPath": "research-and-data"
+  },
+  {
+    "path": "research-and-data/research-awards",
+    "displayName": "Research Awards",
+    "parentPath": "research-and-data"
+  },
+  {
+    "path": "research-and-data/research-education-and-mentorship-programs",
+    "displayName": "Research Education & Mentorship Programs",
+    "parentPath": "research-and-data"
+  },
+  {
+    "path": "research-and-data/research-resources",
+    "displayName": "Research Resources",
+    "parentPath": "research-and-data"
+  },
+  {
+    "path": "about-us/aua-governance/annual-business-meeting",
+    "displayName": "Annual Business Meeting",
+    "parentPath": "about-us/aua-governance"
+  },
+  {
+    "path": "about-us/aua-governance/awards",
+    "displayName": "Awards",
+    "parentPath": "about-us/aua-governance"
+  },
+  {
+    "path": "about-us/aua-governance/committees",
+    "displayName": "Committees",
+    "parentPath": "about-us/aua-governance"
+  },
+  {
+    "path": "about-us/aua-governance/expert-witness-registry",
+    "displayName": "Expert Witness Registry",
+    "parentPath": "about-us/aua-governance"
+  },
+  {
+    "path": "about-us/aua-statements/definition-statement",
+    "displayName": "Definition Statement",
+    "parentPath": "about-us/aua-statements"
+  },
+  {
+    "path": "about-us/industry-support-opportunities/aua-industry-relations-policy-updates",
+    "displayName": "AUA Industry Relations Policy Updates",
+    "parentPath": "about-us/industry-support-opportunities"
+  },
+  {
+    "path": "about-us/leadership/board-of-directors",
+    "displayName": "Board of Directors",
+    "parentPath": "about-us/leadership"
+  },
+  {
+    "path": "about-us/media-center/press-center",
+    "displayName": "Press Center",
+    "parentPath": "about-us/media-center"
+  },
+  {
+    "path": "about-us/media-center/terms-of-use",
+    "displayName": "Terms of Use",
+    "parentPath": "about-us/media-center"
+  },
+  {
+    "path": "advocacy/federal-advocacy/coding-and-reimbursement-committee",
+    "displayName": "Coding and Reimbursement Committee",
+    "parentPath": "advocacy/federal-advocacy"
+  },
+  {
+    "path": "advocacy/federal-advocacy/coding-resources-and-information",
+    "displayName": "Coding Resources and Information",
+    "parentPath": "advocacy/federal-advocacy"
+  },
+  {
+    "path": "advocacy/get-involved/comment-letters-and-resources",
+    "displayName": "Comment Letters & Resources",
+    "parentPath": "advocacy/get-involved"
+  },
+  {
+    "path": "advocacy/get-involved/scholar-and-fellowship-programs",
+    "displayName": "Scholar & Fellowship Programs",
+    "parentPath": "advocacy/get-involved"
+  },
+  {
+    "path": "guidelines-and-quality/guidelines/non-oncology-guidelines",
+    "displayName": "Non-Oncology Guidelines",
+    "parentPath": "guidelines-and-quality/guidelines"
+  },
+  {
+    "path": "guidelines-and-quality/guidelines/oncology-guidelines",
+    "displayName": "Oncology Guidelines",
+    "parentPath": "guidelines-and-quality/guidelines"
+  },
+  {
+    "path": "guidelines-and-quality/guidelines/topic-submission",
+    "displayName": "Topic Submission",
+    "parentPath": "guidelines-and-quality/guidelines"
+  },
+  {
+    "path": "guidelines-and-quality/quality-and-measurement/measurement",
+    "displayName": "Measurement",
+    "parentPath": "guidelines-and-quality/quality-and-measurement"
+  },
+  {
+    "path": "guidelines-and-quality/quality-and-measurement/quality-improvement",
+    "displayName": "Quality Improvement",
+    "parentPath": "guidelines-and-quality/quality-and-measurement"
+  },
+  {
+    "path": "leadership-and-business/institute-for-leadership-and-business/aua-leadership-program",
+    "displayName": "AUA Leadership Program",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business"
+  },
+  {
+    "path": "leadership-and-business/institute-for-leadership-and-business/aua-masterclass-in-executive-leadership-program",
+    "displayName": "AUA Masterclass in Executive Leadership Program",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business"
+  },
+  {
+    "path": "leadership-and-business/institute-for-leadership-and-business/business-education",
+    "displayName": "Business Education",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business"
+  },
+  {
+    "path": "leadership-and-business/institute-for-leadership-and-business/leadership-development-opportunities",
+    "displayName": "Leadership Development Opportunities",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business"
+  },
+  {
+    "path": "leadership-and-business/institute-for-leadership-and-business/practice-management-and-coding",
+    "displayName": "Practice Management And Coding",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business"
+  },
+  {
+    "path": "meetings-and-education/course-planning-disclosures-and-cme/continuing-medical-education-and-accreditation",
+    "displayName": "Continuing Medical Education & Accreditation",
+    "parentPath": "meetings-and-education/course-planning-disclosures-and-cme"
+  },
+  {
+    "path": "meetings-and-education/course-planning-disclosures-and-cme/disclosures",
+    "displayName": "Disclosures",
+    "parentPath": "meetings-and-education/course-planning-disclosures-and-cme"
+  },
+  {
+    "path": "meetings-and-education/for-app/allied-health-professionals",
+    "displayName": "Allied Health Professionals",
+    "parentPath": "meetings-and-education/for-app"
+  },
+  {
+    "path": "meetings-and-education/for-medical-students/gu-exams",
+    "displayName": "GU Exams",
+    "parentPath": "meetings-and-education/for-medical-students"
+  },
+  {
+    "path": "meetings-and-education/for-medical-students/medical-students-curriculum",
+    "displayName": "Medical Students Curriculum",
+    "parentPath": "meetings-and-education/for-medical-students"
+  },
+  {
+    "path": "meetings-and-education/for-residents/urology-and-specialty-matches",
+    "displayName": "Urology and Specialty Matches",
+    "parentPath": "meetings-and-education/for-residents"
+  },
+  {
+    "path": "meetings-and-education/for-residents/urology-residency-and-fellowship-programs",
+    "displayName": "Urology Residency & Fellowship Programs",
+    "parentPath": "meetings-and-education/for-residents"
+  },
+  {
+    "path": "meetings-and-education/global-academic-exchanges/exchange-programs",
+    "displayName": "Exchange Programs",
+    "parentPath": "meetings-and-education/global-academic-exchanges"
+  },
+  {
+    "path": "meetings-and-education/global-academic-exchanges/visiting-scholar-programs",
+    "displayName": "Visiting Scholar Programs",
+    "parentPath": "meetings-and-education/global-academic-exchanges"
+  },
+  {
+    "path": "membership/advancing-urology-globally/intl-membership",
+    "displayName": "International",
+    "parentPath": "membership/advancing-urology-globally"
+  },
+  {
+    "path": "membership/member-benefits-and-programs/active",
+    "displayName": "Active",
+    "parentPath": "membership/member-benefits-and-programs"
+  },
+  {
+    "path": "membership/member-benefits-and-programs/medical",
+    "displayName": "Medical",
+    "parentPath": "membership/member-benefits-and-programs"
+  },
+  {
+    "path": "membership/member-benefits-and-programs/resident",
+    "displayName": "Resident",
+    "parentPath": "membership/member-benefits-and-programs"
+  },
+  {
+    "path": "membership/membership-committees/app-membership-committee",
+    "displayName": "APP Membership Committee",
+    "parentPath": "membership/membership-committees"
+  },
+  {
+    "path": "membership/membership-committees/residents-and-fellows-committee",
+    "displayName": "Residents and Fellows Committee",
+    "parentPath": "membership/membership-committees"
+  },
+  {
+    "path": "membership/membership-committees/young-urologists-committee",
+    "displayName": "Young Urologists Committee",
+    "parentPath": "membership/membership-committees"
+  },
+  {
+    "path": "membership/publications-and-podcasts/journal-subscriptions",
+    "displayName": "Journal Subscriptions",
+    "parentPath": "membership/publications-and-podcasts"
+  },
+  {
+    "path": "membership/publications-and-podcasts/the-journal-of-urology",
+    "displayName": "The Journal of Urology",
+    "parentPath": "membership/publications-and-podcasts"
+  },
+  {
+    "path": "membership/who-we-are/aua-sections-and-demographics",
+    "displayName": "AUA Sections & Demographics",
+    "parentPath": "membership/who-we-are"
+  },
+  {
+    "path": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash",
+    "displayName": "AQUA News Flash",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry"
+  },
+  {
+    "path": "research-and-data/aua-quality-(aqua)-registry/aqua-program-information",
+    "displayName": "AQUA Program Information",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry"
+  },
+  {
+    "path": "research-and-data/aua-quality-(aqua)-registry/aqua-registry-features-by-practice",
+    "displayName": "AQUA Registry Features by Practice",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry"
+  },
+  {
+    "path": "research-and-data/research-awards/research-grant-opportunities",
+    "displayName": "Research Grant Opportunities",
+    "parentPath": "research-and-data/research-awards"
+  },
+  {
+    "path": "research-and-data/research-education-and-mentorship-programs/early-career-investigators-showcase",
+    "displayName": "Early-Career Investigators Showcase",
+    "parentPath": "research-and-data/research-education-and-mentorship-programs"
+  },
+  {
+    "path": "research-and-data/research-education-and-mentorship-programs/usmart-program",
+    "displayName": "USMART Program",
+    "parentPath": "research-and-data/research-education-and-mentorship-programs"
+  },
+  {
+    "path": "advocacy/get-involved/comment-letters-and-resources/in-office-ancillary-services-exception",
+    "displayName": "In-Office Ancillary Services Exception",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources"
+  },
+  {
+    "path": "advocacy/get-involved/comment-letters-and-resources/physician-payment-and-coverage-issues",
+    "displayName": "Physician Payment and Coverage Issues",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources"
+  },
+  {
+    "path": "advocacy/get-involved/comment-letters-and-resources/physician-practice-information-survey",
+    "displayName": "Physician Practice Information Survey",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources"
+  },
+  {
+    "path": "advocacy/get-involved/comment-letters-and-resources/talking-points-fact-sheet-for-novitas",
+    "displayName": "Talking Points Fact Sheet For Novitas",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources"
+  },
+  {
+    "path": "advocacy/get-involved/comment-letters-and-resources/urology",
+    "displayName": "Urology",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources"
+  },
+  {
+    "path": "advocacy/get-involved/comment-letters-and-resources/uspstf-reform",
+    "displayName": "USPSTF Reform",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources"
+  },
+  {
+    "path": "advocacy/get-involved/comment-letters-and-resources/workforce",
+    "displayName": "Workforce",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources"
+  },
+  {
+    "path": "guidelines-and-quality/quality-and-measurement/quality-improvement/engage-with-quality-improvement-and-patient-safety-(e-qips)",
+    "displayName": "Engage with Quality Improvement and Patient Safety (E-QIPS)",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement"
+  },
+  {
+    "path": "guidelines-and-quality/quality-and-measurement/quality-improvement/quality-improvement-resource-library",
+    "displayName": "Quality Improvement Resource Library",
+    "parentPath": "guidelines-and-quality/quality-and-measurement/quality-improvement"
+  },
+  {
+    "path": "leadership-and-business/institute-for-leadership-and-business/aua-leadership-program/leadership-classes",
+    "displayName": "Leadership Classes",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business/aua-leadership-program"
+  },
+  {
+    "path": "leadership-and-business/institute-for-leadership-and-business/aua-leadership-program/leadership-mentors",
+    "displayName": "Leadership Mentors",
+    "parentPath": "leadership-and-business/institute-for-leadership-and-business/aua-leadership-program"
+  },
+  {
+    "path": "meetings-and-education/for-residents/urology-and-specialty-matches/specialty-match-timelines",
+    "displayName": "Specialty Match Timelines",
+    "parentPath": "meetings-and-education/for-residents/urology-and-specialty-matches"
+  },
+  {
+    "path": "meetings-and-education/for-residents/urology-residency-and-fellowship-programs/accredited-us-urology-programs",
+    "displayName": "Accredited U.S. Urology Programs",
+    "parentPath": "meetings-and-education/for-residents/urology-residency-and-fellowship-programs"
+  },
+  {
+    "path": "meetings-and-education/for-residents/urology-residency-and-fellowship-programs/program-vacancies",
+    "displayName": "Program Vacancies",
+    "parentPath": "meetings-and-education/for-residents/urology-residency-and-fellowship-programs"
+  },
+  {
+    "path": "membership/member-benefits-and-programs/active/associate",
+    "displayName": "Associate",
+    "parentPath": "membership/member-benefits-and-programs/active"
+  },
+  {
+    "path": "membership/membership-committees/residents-and-fellows-committee/residents-and-fellows-committee-teaching-award",
+    "displayName": "Residents and Fellows Committee Teaching Award",
+    "parentPath": "membership/membership-committees/residents-and-fellows-committee"
+  },
+  {
+    "path": "membership/membership-committees/young-urologists-committee/young-urologists-of-the-year-award-winners",
+    "displayName": "Young Urologists Of The Year Award Winners",
+    "parentPath": "membership/membership-committees/young-urologists-committee"
+  },
+  {
+    "path": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash/aqua-news-flash-review-your-providers",
+    "displayName": "Aqua News Flash Review Your Providers",
+    "parentPath": "research-and-data/aua-quality-(aqua)-registry/aqua-news-flash"
+  },
+  {
+    "path": "research-and-data/research-awards/research-grant-opportunities/aua-data-research-program",
+    "displayName": "AUA Data Research Program",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "path": "research-and-data/research-awards/research-grant-opportunities/boston-scientific-medical-student-innovation-fellowship",
+    "displayName": "Boston Scientific Medical Student Innovation Fellowship",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "path": "research-and-data/research-awards/research-grant-opportunities/lead-awards",
+    "displayName": "LEAD Awards",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "path": "research-and-data/research-awards/research-grant-opportunities/medical-student-fellowships",
+    "displayName": "Medical Student Fellowships",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "path": "research-and-data/research-awards/research-grant-opportunities/research-scholar-awards",
+    "displayName": "Research Scholar Awards",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "path": "research-and-data/research-awards/research-grant-opportunities/residency-research-awards",
+    "displayName": "Residency Research Awards",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "path": "research-and-data/research-awards/research-grant-opportunities/rising-stars-in-urology-research-awards",
+    "displayName": "Rising Stars in Urology Research Awards",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "path": "research-and-data/research-awards/research-grant-opportunities/the-urology-care-foundation-bridge-award-supported-by-dornier-medtech",
+    "displayName": "The Urology Care Foundation Bridge Award Supported by Dornier MedTech",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities"
+  },
+  {
+    "path": "advocacy/get-involved/comment-letters-and-resources/workforce/graduate-medical-education",
+    "displayName": "Graduate Medical Education",
+    "parentPath": "advocacy/get-involved/comment-letters-and-resources/workforce"
+  },
+  {
+    "path": "research-and-data/research-awards/research-grant-opportunities/aua-data-research-program/data-research-program-and-past-data-grant-recipients",
+    "displayName": "Data Research Program and Past Data Grant Recipients",
+    "parentPath": "research-and-data/research-awards/research-grant-opportunities/aua-data-research-program"
+  }
+]

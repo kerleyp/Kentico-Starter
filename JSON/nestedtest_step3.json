@@ -1,0 +1,14 @@
+[
+  {
+    "$type": "ContentItemData",
+    "contentItemDataGUID": "296a4a38-fcc1-5b6f-9551-9a2b1fa46a12",
+    "contentItemDataCommonDataGuid": "54a4a772-5db9-5b68-8c90-2357e2000c66",
+    "contentItemContentTypeName": "AUA.StandardContentPage",
+    "Title": "Why Urology? (Nested Path Test)",
+    "Headline": "Why Urology? (Nested Path Test)",
+    "MetaDescription": "Testing a real multi-segment nested URL path.",
+    "MetaKeywords": "test",
+    "Body": "<p>This page tests whether a nested, multi-segment tree path resolves correctly without a parent page chain.</p>",
+    "NeedsManualContentReview": false
+  }
+]

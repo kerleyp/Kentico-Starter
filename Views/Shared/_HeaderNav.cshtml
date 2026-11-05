@@ -1,0 +1,324 @@
+@using System.Linq
+@using AUA
+@using CMS.ContentEngine
+
+@inject IContentQueryExecutor ContentQueryExecutor
+
+@{
+    // Shared site header nav -- included via its full virtual path
+    // (~/Views/Shared/_HeaderNav.cshtml) from every page template AND from
+    // /search and /ask, so it resolves regardless of where the calling view
+    // physically lives (page templates live under ~/PageTemplates/AUA/, not
+    // the standard ~/Views/{Controller}/ convention).
+    //
+    // UNPROVEN, like the MENU_SEED_FILE trigger that creates this content:
+    // this is the first place this project queries a REUSABLE content type
+    // (AUA.Menu/AUA.MenuItem) rather than a website page. ContentItemQueryBuilder
+    // + GetMappedResult<Menu> + WithLinkedItems is a best-effort guess at the
+    // right API shape, modeled on IContentRetriever's usage elsewhere in this
+    // project. If this doesn't compile or the linked items don't resolve,
+    // paste the exact error/behavior and it'll get fixed quickly -- same
+    // iterative approach used throughout this project for uncertain APIs.
+    //
+    // Falls back to the old static mega menu (commented out below this file
+    // -- see _HeaderNav_static_fallback.cshtml) if the Menu query returns
+    // nothing, so a bad query doesn't take the whole nav down.
+    // NOTE: added .InLanguage("en") -- every WithLinkedItems example in
+    // Kentico's own docs chains this on the outer builder. Without it,
+    // the top-level Menu still matched (scalar Title field), but the
+    // linked "Item" field resolved as an empty list -- worth testing
+    // whether this was the missing piece.
+    var queryBuilder = new ContentItemQueryBuilder()
+        .ForContentType(Menu.CONTENT_TYPE_NAME, config => config
+            .Where(w => w.WhereEquals(nameof(Menu.Title), "Main Navigation"))
+            .WithLinkedItems(4))
+        .InLanguage("en");
+
+    var menus = await ContentQueryExecutor.GetMappedResult<Menu>(queryBuilder);
+    var menu = menus?.FirstOrDefault();
+    // NOTE: the AUA.Menu field's saved codename is "Item" (singular), not
+    // "Items" -- codegen generates the C# property name from the codename,
+    // so this reads menu.Item even though the field is conceptually a list
+    // of top-level menu items.
+    var topItems = (menu?.Item ?? new List<MenuItem>())
+        .OrderBy(i => i.Order)
+        .ToList();
+
+    // "AUA Websites" utility dropdown -- a separate AUA.Menu item (Title =
+    // "AUA Websites"), seeded via the same MENU_SEED_FILE trigger with
+    // aua_websites_seed.json. Modeled on a reference design
+    // (effervescent-mooncake-80147c.netlify.app) that shows this as a thin
+    // utility bar above the main colored nav, listing AUA's sister
+    // properties with a one-line description each. Uses the additive
+    // Description field on AUA.MenuItem -- existing Main Navigation items
+    // just leave it blank.
+    var utilityQueryBuilder = new ContentItemQueryBuilder()
+        .ForContentType(Menu.CONTENT_TYPE_NAME, config => config
+            .Where(w => w.WhereEquals(nameof(Menu.Title), "AUA Websites"))
+            .WithLinkedItems(2))
+        .InLanguage("en");
+
+    var utilityMenus = await ContentQueryExecutor.GetMappedResult<Menu>(utilityQueryBuilder);
+    var utilityMenu = utilityMenus?.FirstOrDefault();
+    // Same "Item" (not "Items") codename note as above.
+    var utilityItems = (utilityMenu?.Item ?? new List<MenuItem>())
+        .OrderBy(i => i.Order)
+        .ToList();
+}
+
+@* TEMPORARY DEBUG -- remove once nav is confirmed working. View page source
+   (Ctrl+U / right-click "View Page Source", NOT DevTools Elements panel,
+   since that shows the rendered/live DOM not the raw HTML) and find this
+   comment near the top of the header to see what the queries actually
+   returned. *@
+<!--
+  DEBUG menus.Count=@(menus?.Count() ?? -1)
+  DEBUG menu-found=@(menu != null)
+  DEBUG topItems.Count=@topItems.Count
+  DEBUG utilityMenus.Count=@(utilityMenus?.Count() ?? -1)
+  DEBUG utilityMenu-found=@(utilityMenu != null)
+  DEBUG utilityItems.Count=@utilityItems.Count
+-->
+
+
+@if (utilityItems.Count > 0)
+{
+    <div class="aua-utilitybar">
+        <div class="container aua-utilitybar-inner">
+            <div class="aua-utilitybar-item">
+                <button type="button" class="aua-utilitybar-toplink">AUA Websites</button>
+                <div class="aua-utilitybar-panel">
+                    <ul>
+                        @foreach (var item in utilityItems)
+                        {
+                            <li>
+                                <a href="@item.LinkUrl">
+                                    <span class="aua-utilitybar-label">@item.Label</span>
+                                    @if (!string.IsNullOrEmpty(item.Description))
+                                    {
+                                        <span class="aua-utilitybar-desc">@item.Description</span>
+                                    }
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<nav class="aua-megamenu-nav">
+    <div class="container aua-megamenu-bar">
+        <a class="aua-megamenu-brand" href="/home">
+            <img src="~/images/aua-logo.svg" alt="American Urological Association" />
+        </a>
+        <ul class="aua-megamenu-list">
+            @foreach (var item in topItems)
+            {
+                var children = (item.ChildItems ?? new List<MenuItem>())
+                    .OrderBy(c => c.Order)
+                    .ToList();
+
+                <li class="aua-megamenu-item">
+                    <a href="@item.LinkUrl" class="aua-megamenu-toplink">@item.Label</a>
+                    @if (children.Count > 0)
+                    {
+                        <div class="aua-megamenu-panel">
+                            <ul>
+                                @foreach (var child in children)
+                                {
+                                    <li><a href="@child.LinkUrl">@child.Label</a></li>
+                                }
+                            </ul>
+                        </div>
+                    }
+                </li>
+            }
+        </ul>
+    </div>
+</nav>
+
+<style>
+    .aua-utilitybar {
+        background-color: #0b5d78;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .aua-utilitybar-inner {
+        display: flex;
+        align-items: center;
+        padding: 0.3rem 1rem;
+    }
+
+    .aua-utilitybar-item {
+        position: relative;
+    }
+
+    .aua-utilitybar-toplink {
+        background: none;
+        border: none;
+        color: rgba(255,255,255,0.7);
+        font-size: 0.78rem;
+        letter-spacing: 0.02em;
+        padding: 0.25rem 0.5rem;
+        cursor: pointer;
+    }
+
+    .aua-utilitybar-item:hover .aua-utilitybar-toplink,
+    .aua-utilitybar-toplink:focus {
+        color: #ffffff;
+    }
+
+    .aua-utilitybar-panel {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #ffffff;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+        min-width: 300px;
+        padding: 0.5rem 0;
+        z-index: 1001;
+    }
+
+    .aua-utilitybar-item:hover .aua-utilitybar-panel,
+    .aua-utilitybar-item:focus-within .aua-utilitybar-panel {
+        display: block;
+    }
+
+    .aua-utilitybar-panel ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .aua-utilitybar-panel a {
+        display: block;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+    }
+
+    .aua-utilitybar-panel a:hover {
+        background-color: #f8f9fa;
+    }
+
+    .aua-utilitybar-label {
+        display: block;
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: #003057;
+    }
+
+    .aua-utilitybar-desc {
+        display: block;
+        font-size: 0.8rem;
+        color: #6c757d;
+        margin-top: 0.15rem;
+    }
+
+    .aua-megamenu-nav {
+        background-color: #ffffff;
+        border-bottom: 1px solid #dee2e6;
+        position: relative;
+        z-index: 1000;
+    }
+
+    .aua-megamenu-bar {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 0.6rem 1rem;
+    }
+
+    .aua-megamenu-brand {
+        color: #0b5d78;
+        font-weight: 700;
+        text-decoration: none;
+        white-space: nowrap;
+        font-size: 1.05rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .aua-megamenu-brand img {
+        height: 40px;
+        width: auto;
+    }
+
+    .aua-megamenu-list {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        gap: 0.25rem;
+        flex: 1;
+    }
+
+    .aua-megamenu-item {
+        position: relative;
+    }
+
+    .aua-megamenu-toplink {
+        display: block;
+        color: #1a2b4a;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 0.92rem;
+        padding: 0.6rem 0.75rem;
+        white-space: nowrap;
+    }
+
+    .aua-megamenu-item:hover .aua-megamenu-toplink,
+    .aua-megamenu-toplink:focus {
+        color: #0b5d78;
+        background-color: #f8f9fa;
+    }
+
+    .aua-megamenu-panel {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #ffffff;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+        min-width: 240px;
+        padding: 0.5rem 0;
+    }
+
+    .aua-megamenu-item:hover .aua-megamenu-panel,
+    .aua-megamenu-item:focus-within .aua-megamenu-panel {
+        display: block;
+    }
+
+    .aua-megamenu-panel ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .aua-megamenu-panel a {
+        display: block;
+        color: #212529;
+        text-decoration: none;
+        padding: 0.4rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .aua-megamenu-panel a:hover {
+        background-color: #f8f9fa;
+        color: #003057;
+    }
+
+    @@media (max-width: 991px) {
+        .aua-megamenu-list {
+            display: none;
+        }
+    }
+</style>

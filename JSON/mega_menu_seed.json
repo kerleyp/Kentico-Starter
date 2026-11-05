@@ -1,0 +1,321 @@
+{
+  "menuTitle": "Main Navigation",
+  "items": [
+    {
+      "label": "Home",
+      "linkUrl": "/home",
+      "order": 0,
+      "children": []
+    },
+    {
+      "label": "News",
+      "linkUrl": "/section-news",
+      "order": 1,
+      "children": [
+        {
+          "label": "Archive",
+          "linkUrl": "/section-news#archive",
+          "order": 0
+        },
+        {
+          "label": "Latest",
+          "linkUrl": "/section-news#latest",
+          "order": 1
+        },
+        {
+          "label": "Podcasts and Webinars",
+          "linkUrl": "/section-news#podcasts-and-webinars",
+          "order": 2
+        },
+        {
+          "label": "Resource Center",
+          "linkUrl": "/section-news#resource-center",
+          "order": 3
+        },
+        {
+          "label": "Series and Columns",
+          "linkUrl": "/section-news#series-and-columns",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "label": "Advocacy",
+      "linkUrl": "/section-advocacy",
+      "order": 2,
+      "children": [
+        {
+          "label": "AMA",
+          "linkUrl": "/section-advocacy#ama",
+          "order": 0
+        },
+        {
+          "label": "Action Center",
+          "linkUrl": "/section-advocacy#action-center",
+          "order": 1
+        },
+        {
+          "label": "Federal",
+          "linkUrl": "/section-advocacy#federal",
+          "order": 2
+        },
+        {
+          "label": "Policy Statements",
+          "linkUrl": "/section-advocacy#policy-statements",
+          "order": 3
+        },
+        {
+          "label": "State",
+          "linkUrl": "/section-advocacy#state",
+          "order": 4
+        },
+        {
+          "label": "Summit",
+          "linkUrl": "/section-advocacy#summit",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "label": "Practice Resources",
+      "linkUrl": "/section-practice-resources",
+      "order": 3,
+      "children": [
+        {
+          "label": "AQUA",
+          "linkUrl": "/section-practice-resources#aqua",
+          "order": 0
+        },
+        {
+          "label": "Coding Resources & Education",
+          "linkUrl": "/section-practice-resources#coding-resources-education",
+          "order": 1
+        },
+        {
+          "label": "Practice Managers Network",
+          "linkUrl": "/section-practice-resources#practice-managers-network",
+          "order": 2
+        },
+        {
+          "label": "Practice Support (landing page)",
+          "linkUrl": "/section-practice-resources#practice-support-landing-page",
+          "order": 3
+        },
+        {
+          "label": "Quality Imrpovement",
+          "linkUrl": "/section-practice-resources#quality-imrpovement",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "label": "Career Growth",
+      "linkUrl": "/section-career-growth",
+      "order": 4,
+      "children": [
+        {
+          "label": "Grants and Fellowships",
+          "linkUrl": "/section-career-growth#grants-and-fellowships",
+          "order": 0
+        },
+        {
+          "label": "Leadership Program",
+          "linkUrl": "/section-career-growth#leadership-program",
+          "order": 1
+        },
+        {
+          "label": "Masterclass in Executive Leadership",
+          "linkUrl": "/section-career-growth#masterclass-in-executive-leadership",
+          "order": 2
+        },
+        {
+          "label": "Mentorship",
+          "linkUrl": "/section-career-growth#mentorship",
+          "order": 3
+        },
+        {
+          "label": "Resources",
+          "linkUrl": "/section-career-growth#resources",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "label": "Membership",
+      "linkUrl": "/section-membership",
+      "order": 5,
+      "children": [
+        {
+          "label": "Councils, Committees, & Workgroups",
+          "linkUrl": "/section-membership#councils-committees-workgroups",
+          "order": 0
+        },
+        {
+          "label": "Join / Renew",
+          "linkUrl": "/section-membership#join-renew",
+          "order": 1
+        },
+        {
+          "label": "Member Categories",
+          "linkUrl": "/section-membership#member-categories",
+          "order": 2
+        },
+        {
+          "label": "Programs & Resources",
+          "linkUrl": "/section-membership#programs-resources",
+          "order": 3
+        },
+        {
+          "label": "Volunteer Opportunities",
+          "linkUrl": "/section-membership#volunteer-opportunities",
+          "order": 4
+        },
+        {
+          "label": "Who we are",
+          "linkUrl": "/section-membership#who-we-are",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "label": "Education",
+      "linkUrl": "/section-education",
+      "order": 6,
+      "children": [
+        {
+          "label": "AUAUniversity",
+          "linkUrl": "/section-education#auauniversity",
+          "order": 0
+        },
+        {
+          "label": "Advanced Practice Providers",
+          "linkUrl": "/section-education#advanced-practice-providers",
+          "order": 1
+        },
+        {
+          "label": "Courses & CME",
+          "linkUrl": "/section-education#courses-cme",
+          "order": 2
+        },
+        {
+          "label": "Events Calendar",
+          "linkUrl": "/section-education#events-calendar",
+          "order": 3
+        },
+        {
+          "label": "Medical Students",
+          "linkUrl": "/section-education#medical-students",
+          "order": 4
+        },
+        {
+          "label": "Podcasts",
+          "linkUrl": "/section-education#podcasts",
+          "order": 5
+        },
+        {
+          "label": "Residents and Fellows",
+          "linkUrl": "/section-education#residents-and-fellows",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "label": "Clinical Guidance",
+      "linkUrl": "/section-clinical-guidance",
+      "order": 7,
+      "children": [
+        {
+          "label": "Concensus Statements",
+          "linkUrl": "/section-clinical-guidance#concensus-statements",
+          "order": 0
+        },
+        {
+          "label": "Guidelines",
+          "linkUrl": "/section-clinical-guidance#guidelines",
+          "order": 1
+        },
+        {
+          "label": "Patient Resources",
+          "linkUrl": "/section-clinical-guidance#patient-resources",
+          "order": 2
+        },
+        {
+          "label": "Topics",
+          "linkUrl": "/section-clinical-guidance#topics",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "label": "About Us",
+      "linkUrl": "/section-about-us",
+      "order": 8,
+      "children": [
+        {
+          "label": "Ethics & Expert Witness",
+          "linkUrl": "/section-about-us#ethics-expert-witness",
+          "order": 0
+        },
+        {
+          "label": "Governance",
+          "linkUrl": "/section-about-us#governance",
+          "order": 1
+        },
+        {
+          "label": "Industry Relations",
+          "linkUrl": "/section-about-us#industry-relations",
+          "order": 2
+        },
+        {
+          "label": "Leadership",
+          "linkUrl": "/section-about-us#leadership",
+          "order": 3
+        },
+        {
+          "label": "Who We Are",
+          "linkUrl": "/section-about-us#who-we-are",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "label": "Research",
+      "linkUrl": "/section-research",
+      "order": 9,
+      "children": [
+        {
+          "label": "AUA Census",
+          "linkUrl": "/section-research#aua-census",
+          "order": 0
+        },
+        {
+          "label": "Data & Statistics",
+          "linkUrl": "/section-research#data-statistics",
+          "order": 1
+        },
+        {
+          "label": "Research Education",
+          "linkUrl": "/section-research#research-education",
+          "order": 2
+        },
+        {
+          "label": "Research Funding",
+          "linkUrl": "/section-research#research-funding",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "label": "Search",
+      "linkUrl": "/search",
+      "order": 10,
+      "children": []
+    },
+    {
+      "label": "Ask",
+      "linkUrl": "/ask",
+      "order": 11,
+      "children": []
+    }
+  ]
+}

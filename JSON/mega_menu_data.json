@@ -1,0 +1,168 @@
+[
+  {
+    "bucket": "News",
+    "slug": "section-news",
+    "terms": [
+      "Archive",
+      "Latest",
+      "Podcasts and Webinars",
+      "Resource Center",
+      "Series and Columns"
+    ],
+    "termAnchors": {
+      "Archive": "archive",
+      "Latest": "latest",
+      "Podcasts and Webinars": "podcasts-and-webinars",
+      "Resource Center": "resource-center",
+      "Series and Columns": "series-and-columns"
+    }
+  },
+  {
+    "bucket": "Advocacy",
+    "slug": "section-advocacy",
+    "terms": [
+      "AMA",
+      "Action Center",
+      "Federal",
+      "Policy Statements",
+      "State",
+      "Summit"
+    ],
+    "termAnchors": {
+      "AMA": "ama",
+      "Action Center": "action-center",
+      "Federal": "federal",
+      "Policy Statements": "policy-statements",
+      "State": "state",
+      "Summit": "summit"
+    }
+  },
+  {
+    "bucket": "Practice Resources",
+    "slug": "section-practice-resources",
+    "terms": [
+      "AQUA",
+      "Coding Resources & Education",
+      "Practice Managers Network",
+      "Practice Support (landing page)",
+      "Quality Imrpovement"
+    ],
+    "termAnchors": {
+      "AQUA": "aqua",
+      "Coding Resources & Education": "coding-resources-education",
+      "Practice Managers Network": "practice-managers-network",
+      "Practice Support (landing page)": "practice-support-landing-page",
+      "Quality Imrpovement": "quality-imrpovement"
+    }
+  },
+  {
+    "bucket": "Career Growth",
+    "slug": "section-career-growth",
+    "terms": [
+      "Grants and Fellowships",
+      "Leadership Program",
+      "Masterclass in Executive Leadership",
+      "Mentorship",
+      "Resources"
+    ],
+    "termAnchors": {
+      "Grants and Fellowships": "grants-and-fellowships",
+      "Leadership Program": "leadership-program",
+      "Masterclass in Executive Leadership": "masterclass-in-executive-leadership",
+      "Mentorship": "mentorship",
+      "Resources": "resources"
+    }
+  },
+  {
+    "bucket": "Membership",
+    "slug": "section-membership",
+    "terms": [
+      "Councils, Committees, & Workgroups",
+      "Join / Renew",
+      "Member Categories",
+      "Programs & Resources",
+      "Volunteer Opportunities",
+      "Who we are"
+    ],
+    "termAnchors": {
+      "Councils, Committees, & Workgroups": "councils-committees-workgroups",
+      "Join / Renew": "join-renew",
+      "Member Categories": "member-categories",
+      "Programs & Resources": "programs-resources",
+      "Volunteer Opportunities": "volunteer-opportunities",
+      "Who we are": "who-we-are"
+    }
+  },
+  {
+    "bucket": "Education",
+    "slug": "section-education",
+    "terms": [
+      "AUAUniversity",
+      "Advanced Practice Providers",
+      "Courses & CME",
+      "Events Calendar",
+      "Medical Students",
+      "Podcasts",
+      "Residents and Fellows"
+    ],
+    "termAnchors": {
+      "AUAUniversity": "auauniversity",
+      "Advanced Practice Providers": "advanced-practice-providers",
+      "Courses & CME": "courses-cme",
+      "Events Calendar": "events-calendar",
+      "Medical Students": "medical-students",
+      "Podcasts": "podcasts",
+      "Residents and Fellows": "residents-and-fellows"
+    }
+  },
+  {
+    "bucket": "Clinical Guidance",
+    "slug": "section-clinical-guidance",
+    "terms": [
+      "Concensus Statements",
+      "Guidelines",
+      "Patient Resources",
+      "Topics"
+    ],
+    "termAnchors": {
+      "Concensus Statements": "concensus-statements",
+      "Guidelines": "guidelines",
+      "Patient Resources": "patient-resources",
+      "Topics": "topics"
+    }
+  },
+  {
+    "bucket": "About Us",
+    "slug": "section-about-us",
+    "terms": [
+      "Ethics & Expert Witness",
+      "Governance",
+      "Industry Relations",
+      "Leadership",
+      "Who We Are"
+    ],
+    "termAnchors": {
+      "Ethics & Expert Witness": "ethics-expert-witness",
+      "Governance": "governance",
+      "Industry Relations": "industry-relations",
+      "Leadership": "leadership",
+      "Who We Are": "who-we-are"
+    }
+  },
+  {
+    "bucket": "Research",
+    "slug": "section-research",
+    "terms": [
+      "AUA Census",
+      "Data & Statistics",
+      "Research Education",
+      "Research Funding"
+    ],
+    "termAnchors": {
+      "AUA Census": "aua-census",
+      "Data & Statistics": "data-statistics",
+      "Research Education": "research-education",
+      "Research Funding": "research-funding"
+    }
+  }
+]

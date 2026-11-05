@@ -1,0 +1,22 @@
+@using Microsoft.Extensions.DependencyInjection
+@using Microsoft.ApplicationInsights.AspNetCore
+@{
+    var aiSnippet = Context.RequestServices.GetService<JavaScriptSnippet>();
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    @if (aiSnippet != null)
+    {
+        @Html.Raw(aiSnippet.FullScript)
+    }
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    @RenderBody()
+</body>
+</html>
+
+

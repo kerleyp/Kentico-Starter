@@ -1,0 +1,30 @@
+@using System
+
+@*
+    Shared "Sign in with Google" / "Sign in with Facebook" buttons --
+    reused in _SiteFooter.cshtml and each page template's member-only gate.
+    Pass the current path as ReturnUrl so the visitor lands back where they
+    were after signing in, e.g.:
+
+        <partial name="~/Views/Shared/_ExternalLoginButtons.cshtml"
+                 model="@Context.Request.Path.Value" />
+
+    If no model is passed, falls back to "/home".
+*@
+@model string
+
+@{
+    string returnUrl = string.IsNullOrEmpty(Model) ? "/home" : Model;
+    string encodedReturnUrl = Uri.EscapeDataString(returnUrl);
+}
+
+<div class="aua-external-login-buttons">
+    <a class="btn btn-sm btn-outline-dark me-2"
+       href="/external-auth/login?provider=Google&returnUrl=@encodedReturnUrl">
+        Sign in with Google
+    </a>
+    <a class="btn btn-sm btn-outline-dark"
+       href="/external-auth/login?provider=Facebook&returnUrl=@encodedReturnUrl">
+        Sign in with Facebook
+    </a>
+</div>

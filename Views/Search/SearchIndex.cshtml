@@ -1,0 +1,222 @@
+@{
+    Layout = null;
+    ViewData["Title"] = "Search";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Search - American Urological Association</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .aua-page-hero {
+            background-color: #003057;
+            color: #ffffff;
+            padding: 3rem 0;
+            margin-bottom: 2.5rem;
+        }
+
+        .aua-page-hero h1 {
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+
+        #aua-search-input {
+            font-size: 1.15rem;
+            padding: 0.75rem 1rem;
+        }
+
+        .aua-search-meta {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin: 0.75rem 0 1.5rem;
+        }
+
+        .aua-result {
+            padding: 1.25rem 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .aua-result:last-child {
+            border-bottom: none;
+        }
+
+        .aua-result-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .aua-result-title a {
+            color: #003057;
+            text-decoration: none;
+        }
+
+        .aua-result-title a:hover {
+            text-decoration: underline;
+        }
+
+        .aua-result-breadcrumb {
+            font-size: 0.8rem;
+            color: #6c757d;
+            margin-bottom: 0.4rem;
+        }
+
+        .aua-result-snippet {
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .aua-result-snippet mark,
+        .aua-search-meta mark {
+            background-color: #fff3ac;
+            padding: 0 2px;
+        }
+
+        .aua-empty-state,
+        .aua-loading-state {
+            color: #6c757d;
+            padding: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <partial name="~/Views/Shared/_HeaderNav.cshtml" />
+
+    <header class="aua-page-hero">
+        <div class="container">
+            <h1>Search</h1>
+        </div>
+    </header>
+
+    <main class="container pb-5" style="max-width: 800px;">
+        <input
+            type="search"
+            id="aua-search-input"
+            class="form-control"
+            placeholder="Search guidelines, advocacy, membership, and more..."
+            autofocus
+        />
+
+        <div id="aua-search-meta" class="aua-search-meta"></div>
+        <div id="aua-search-results"></div>
+    </main>
+
+    <footer class="bg-white border-top py-4 mt-5">
+        <div class="container text-muted small">
+            American Urological Association
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script>
+    <script>
+        (function () {
+            var ALGOLIA_APP_ID = "H9UYY6NMF3";
+            var ALGOLIA_SEARCH_KEY = "f4171c56c847b9a83ebf9fab99ff898c";
+            var ALGOLIA_INDEX_NAME = "aua_content";
+
+            var client = algoliasearch(ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY);
+            var index = client.initIndex(ALGOLIA_INDEX_NAME);
+
+            var input = document.getElementById("aua-search-input");
+            var metaEl = document.getElementById("aua-search-meta");
+            var resultsEl = document.getElementById("aua-search-results");
+
+            var debounceTimer = null;
+            var latestQueryId = 0;
+
+            function escapeHtml(str) {
+                var div = document.createElement("div");
+                div.textContent = str || "";
+                return div.innerHTML;
+            }
+
+            function renderResults(hits, query, processingTimeMS, nbHits) {
+                if (!query) {
+                    metaEl.innerHTML = "";
+                    resultsEl.innerHTML = "";
+                    return;
+                }
+
+                if (hits.length === 0) {
+                    metaEl.innerHTML = 'No results for "' + escapeHtml(query) + '".';
+                    resultsEl.innerHTML = "";
+                    return;
+                }
+
+                metaEl.innerHTML =
+                    nbHits + (nbHits === 1 ? " result" : " results") +
+                    ' for "' + escapeHtml(query) + '" (' + processingTimeMS + "ms)";
+
+                resultsEl.innerHTML = hits.map(function (hit) {
+                    var titleHtml = (hit._highlightResult && hit._highlightResult.title)
+                        ? hit._highlightResult.title.value
+                        : escapeHtml(hit.title);
+
+                    var snippetHtml = (hit._snippetResult && hit._snippetResult.text)
+                        ? hit._snippetResult.text.value
+                        : escapeHtml((hit.text || "").slice(0, 200));
+
+                    var breadcrumb = [hit.iaBucket, hit.iaTerm].filter(Boolean).join(" / ");
+
+                    return (
+                        '<div class="aua-result">' +
+                            (breadcrumb ? '<div class="aua-result-breadcrumb">' + escapeHtml(breadcrumb) + "</div>" : "") +
+                            '<div class="aua-result-title"><a href="' + escapeHtml(hit.url) + '">' + titleHtml + "</a></div>" +
+                            '<div class="aua-result-snippet">' + snippetHtml + "</div>" +
+                        "</div>"
+                    );
+                }).join("");
+            }
+
+            function runSearch(query) {
+                var thisQueryId = ++latestQueryId;
+
+                if (!query) {
+                    metaEl.innerHTML = "";
+                    resultsEl.innerHTML = "";
+                    return;
+                }
+
+                resultsEl.innerHTML = '<div class="aua-loading-state">Searching...</div>';
+
+                index.search(query, { hitsPerPage: 20 }).then(function (response) {
+                    if (thisQueryId !== latestQueryId) {
+                        return; // a newer keystroke already superseded this request
+                    }
+                    renderResults(response.hits, query, response.processingTimeMS, response.nbHits);
+                }).catch(function (err) {
+                    if (thisQueryId !== latestQueryId) {
+                        return;
+                    }
+                    metaEl.innerHTML = "";
+                    resultsEl.innerHTML = '<div class="aua-empty-state">Search is temporarily unavailable. Please try again shortly.</div>';
+                    console.error("Algolia search error:", err);
+                });
+            }
+
+            input.addEventListener("input", function () {
+                var query = input.value.trim();
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(function () {
+                    runSearch(query);
+                }, 200);
+            });
+
+            // Support ?q=... deep links into search results.
+            var params = new URLSearchParams(window.location.search);
+            var initialQuery = params.get("q");
+            if (initialQuery) {
+                input.value = initialQuery;
+                runSearch(initialQuery);
+            }
+        })();
+    </script>
+</body>
+</html>

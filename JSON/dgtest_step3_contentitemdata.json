@@ -1,0 +1,14 @@
+[
+  {
+    "$type": "ContentItemData",
+    "contentItemDataGUID": "aaaa3333-8885-51c2-959e-3838025d6388",
+    "contentItemDataCommonDataGuid": "aaaa2222-accb-50d3-8343-5fd478c02dd3",
+    "contentItemContentTypeName": "AUA.StandardContentPage",
+    "Title": "Why Urology? (DG test)",
+    "Headline": "Why Urology? (DG test)",
+    "MetaDescription": "Diagnostic test page imported into the Dancing Goat channel to verify the UMT import pipeline.",
+    "MetaKeywords": "test",
+    "Body": "<p>This is a diagnostic test page imported into the Dancing Goat channel to verify the import pipeline works, independent of the AUA channel/domain setup.</p>",
+    "NeedsManualContentReview": false
+  }
+]

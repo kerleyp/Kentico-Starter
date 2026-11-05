@@ -1,0 +1,12 @@
+[
+  {
+    "$type": "ContentItem",
+    "contentItemGUID": "aaaa1111-0b97-5553-80a6-741d8f45def4",
+    "contentItemName": "WhyUrologyDGTest",
+    "contentItemIsReusable": false,
+    "contentItemIsSecured": false,
+    "contentItemDataClassGuid": "E9817886-B3F4-43C8-B3D9-F5520D3E1DE3",
+    "contentItemChannelGuid": "C430F96D-BD56-4448-B6AB-BCE41A58F186",
+    "contentItemWorkspaceGuid": "4972D424-6C85-45F1-AC71-2576716A4E8C"
+  }
+]

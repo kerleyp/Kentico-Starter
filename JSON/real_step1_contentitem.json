@@ -1,0 +1,12 @@
+[
+  {
+    "$type": "ContentItem",
+    "contentItemGUID": "027c32a1-0b97-5553-80a6-741d8f45def4",
+    "contentItemName": "WhyUrology",
+    "contentItemIsReusable": false,
+    "contentItemIsSecured": false,
+    "contentItemDataClassGuid": "E9817886-B3F4-43C8-B3D9-F5520D3E1DE3",
+    "contentItemChannelGuid": "0F4EF1CD-AF31-4DAE-8121-0BA026BA5E7B",
+    "contentItemWorkspaceGuid": "CE8ED610-E920-4806-A5DE-E5260B63227C"
+  }
+]
